@@ -40,7 +40,6 @@
       9,
       10,
       11,
-      12,
       13,
       14,
       15,
@@ -69,7 +68,7 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "TFUSBSERIAL01A.kicad_prl",
+    "filename": "TFUSBSERIAL01.kicad_prl",
     "version": 3
   },
   "project": {

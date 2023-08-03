@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFUSBSERIAL01.kicad_sch</source>
-    <date>Thu Aug  3 09:28:08 2023</date>
+    <date>Thu Aug  3 13:14:08 2023</date>
     <tool>Eeschema 7.0.5.1-1-g8f565ef7f0-dirty-deb11</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -114,10 +114,10 @@
       <value>RED</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984412875079b91f8896</field>
+        <field name="UST_ID">60d581db1287500165f859a2</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="UST_ID" value="5c70984412875079b91f8896"/>
+      <property name="UST_ID" value="60d581db1287500165f859a2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -129,10 +129,10 @@
       <value>GREEN</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984412875079b91f8895</field>
+        <field name="UST_ID">60d582331287500165f859d0</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="UST_ID" value="5c70984412875079b91f8895"/>
+      <property name="UST_ID" value="60d582331287500165f859d0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -144,10 +144,10 @@
       <value>GREEN</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984412875079b91f8895</field>
+        <field name="UST_ID">60d582331287500165f859d0</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="UST_ID" value="5c70984412875079b91f8895"/>
+      <property name="UST_ID" value="60d582331287500165f859d0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -156,7 +156,7 @@
       <tstamps>3fcdaa31-bb13-461f-b5c7-1d7ff64d3fbc</tstamps>
     </comp>
     <comp ref="F1">
-      <value>750mA</value>
+      <value>350mA</value>
       <footprint>Mlab_F:1812</footprint>
       <libsource lib="Device" part="Fuse" description="Fuse"/>
       <property name="Sheetname" value=""/>
@@ -339,13 +339,10 @@
       <tstamps>06591464-f933-4dc0-bd36-dc54d1421a6c</tstamps>
     </comp>
     <comp ref="R5">
-      <value>270R</value>
+      <value>290R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="UST_ID">5c70984512875079b91f8983</field>
-      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value="5c70984512875079b91f8983"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -354,13 +351,10 @@
       <tstamps>17973f09-f013-4b5d-a43c-b4f47ae6b168</tstamps>
     </comp>
     <comp ref="R6">
-      <value>270R</value>
+      <value>140R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="UST_ID">5c70984512875079b91f8983</field>
-      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value="5c70984512875079b91f8983"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -369,19 +363,104 @@
       <tstamps>0ff0f9a0-36c9-401d-bb1d-7c25306516a5</tstamps>
     </comp>
     <comp ref="R7">
-      <value>270R</value>
+      <value>140R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="UST_ID">5c70984512875079b91f8983</field>
-      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value="5c70984512875079b91f8983"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>22361383-43ea-4096-bc54-de49beb1186b</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d4735bb-65d4-4a9e-a4a4-9a4bae63fa2f</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22c23d30-b900-4b17-854a-5998ef8c799c</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89e6c524-66ac-401f-a968-399172ac06f1</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc662a9d-5c9e-4fc3-8360-eac24d55d087</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>#DTR</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5893a44-acd1-43c1-a371-3072fcfe9c5b</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>#DSR</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6700dc6-0b34-43aa-ba0e-360a2e5aa5b9</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>#DCD</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d07e0e8-9869-4159-bdf3-1851d299def8</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>#RI</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21a5ad0e-539f-4564-b041-b1ee529203d8</tstamps>
     </comp>
     <comp ref="U1">
       <value>USBLC6-2SC6</value>
@@ -417,6 +496,22 @@
     </comp>
   </components>
   <libparts>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="C">
       <description>Unpolarized capacitor</description>
       <docs>~</docs>
@@ -632,6 +727,9 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
     <library logical="Device">
       <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
@@ -644,24 +742,24 @@
   </libraries>
   <nets>
     <net code="1" name="+5V">
+      <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
-      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="J2" pin="1" pintype="input"/>
-      <node ref="J3" pin="1" pintype="input"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="FB1" pin="2" pintype="passive"/>
       <node ref="U2" pin="12" pinfunction="VCC" pintype="power_in"/>
     </net>
     <net code="2" name="/#CTS">
       <node ref="J2" pin="4" pintype="input"/>
       <node ref="J3" pin="5" pintype="input"/>
-      <node ref="U2" pin="6" pinfunction="~{CTS}" pintype="input"/>
+      <node ref="R11" pin="2" pintype="passive"/>
     </net>
     <net code="3" name="/#RTS">
       <node ref="J2" pin="5" pintype="input"/>
       <node ref="J3" pin="4" pintype="input"/>
-      <node ref="U2" pin="19" pinfunction="~{RTS}" pintype="output"/>
+      <node ref="R10" pin="2" pintype="passive"/>
     </net>
     <net code="4" name="/D+">
       <node ref="J1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
@@ -684,7 +782,7 @@
     <net code="8" name="/RXD">
       <node ref="J2" pin="3" pintype="input"/>
       <node ref="J3" pin="2" pintype="input"/>
-      <node ref="U2" pin="1" pinfunction="RXD" pintype="input"/>
+      <node ref="R9" pin="2" pintype="passive"/>
     </net>
     <net code="9" name="/RXLED{slash}CBUS1">
       <node ref="R5" pin="2" pintype="passive"/>
@@ -693,14 +791,15 @@
     <net code="10" name="/TXD">
       <node ref="J2" pin="2" pintype="input"/>
       <node ref="J3" pin="3" pintype="input"/>
-      <node ref="U2" pin="17" pinfunction="TXD" pintype="output"/>
+      <node ref="R8" pin="2" pintype="passive"/>
     </net>
     <net code="11" name="/TXLED{slash}CBUS2">
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="U2" pin="7" pinfunction="CBUS2" pintype="bidirectional"/>
     </net>
     <net code="12" name="/VBUS">
-      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="1" pintype="passive"/>
       <node ref="J1" pin="A4/B9" pinfunction="VBUS" pintype="passive"/>
       <node ref="J1" pin="B4/A9" pinfunction="VBUS" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
@@ -731,15 +830,14 @@
       <node ref="U2" pin="21" pinfunction="GND" pintype="power_in"/>
       <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="14" name="Net-(C1-Pad1)">
-      <node ref="C1" pin="1" pintype="passive"/>
-      <node ref="F1" pin="2" pintype="passive"/>
-      <node ref="FB1" pin="1" pintype="passive"/>
-    </net>
-    <net code="15" name="Net-(D1-A)">
-      <node ref="C3" pin="1" pintype="passive"/>
+    <net code="14" name="Net-(D1-A)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J3" pin="1" pintype="input"/>
     </net>
     <net code="16" name="Net-(D2-K)">
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
@@ -767,34 +865,54 @@
       <node ref="U2" pin="10" pinfunction="3V3OUT" pintype="power_out"/>
       <node ref="U2" pin="20" pinfunction="VCCIO" pintype="power_in"/>
     </net>
-    <net code="22" name="Net-(U2-~{RESET})">
+    <net code="22" name="Net-(U2-RXD)">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="RXD" pintype="input"/>
+    </net>
+    <net code="23" name="Net-(U2-TXD)">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="17" pinfunction="TXD" pintype="output"/>
+    </net>
+    <net code="24" name="Net-(U2-~{CTS})">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="~{CTS}" pintype="input"/>
+    </net>
+    <net code="25" name="Net-(U2-~{DCD})">
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="~{DCD}" pintype="input"/>
+    </net>
+    <net code="26" name="Net-(U2-~{DSR})">
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="~{DSR}" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(U2-~{DTR})">
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="18" pinfunction="~{DTR}" pintype="output"/>
+    </net>
+    <net code="28" name="Net-(U2-~{RESET})">
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U2" pin="11" pinfunction="~{RESET}" pintype="input"/>
     </net>
-    <net code="23" name="unconnected-(J1-SBU1-PadA8)">
+    <net code="29" name="Net-(U2-~{RI})">
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="~{RI}" pintype="input"/>
+    </net>
+    <net code="30" name="Net-(U2-~{RTS})">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U2" pin="19" pinfunction="~{RTS}" pintype="output"/>
+    </net>
+    <net code="31" name="unconnected-(J1-SBU1-PadA8)">
       <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="24" name="unconnected-(J1-SBU2-PadB8)">
+    <net code="32" name="unconnected-(J1-SBU2-PadB8)">
       <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="25" name="unconnected-(U2-CBUS0-Pad15)">
+    <net code="33" name="unconnected-(U2-CBUS0-Pad15)">
       <node ref="U2" pin="15" pinfunction="CBUS0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="26" name="unconnected-(U2-CBUS3-Pad16)">
+    <net code="34" name="unconnected-(U2-CBUS3-Pad16)">
       <node ref="U2" pin="16" pinfunction="CBUS3" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="27" name="unconnected-(U2-~{DCD}-Pad5)">
-      <node ref="U2" pin="5" pinfunction="~{DCD}" pintype="input+no_connect"/>
-    </net>
-    <net code="28" name="unconnected-(U2-~{DSR}-Pad4)">
-      <node ref="U2" pin="4" pinfunction="~{DSR}" pintype="input+no_connect"/>
-    </net>
-    <net code="29" name="unconnected-(U2-~{DTR}-Pad18)">
-      <node ref="U2" pin="18" pinfunction="~{DTR}" pintype="output+no_connect"/>
-    </net>
-    <net code="30" name="unconnected-(U2-~{RI}-Pad2)">
-      <node ref="U2" pin="2" pinfunction="~{RI}" pintype="input+no_connect"/>
     </net>
   </nets>
 </export>

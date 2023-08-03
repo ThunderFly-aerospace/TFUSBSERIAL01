@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/github/workspace/hw/sch_pcb/TFUSBSERIAL01.kicad_sch</source>
+    <date>Thu Aug  3 09:28:08 2023</date>
+    <tool>Eeschema 7.0.5.1-1-g8f565ef7f0-dirty-deb11</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>NAME</title>
+        <company>Mlab www.mlab.cz</company>
+        <rev>REV</rev>
+        <date>%F</date>
+        <source>TFUSBSERIAL01.kicad_sch</source>
+        <comment number="1" value="VERSION"/>
+        <comment number="2" value="Short description \nTwo lines are maximum"/>
+        <comment number="3" value="nickname &lt;email@example.com&gt;"/>
+        <comment number="4" value="BSD"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8b49</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b49"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>851230d7-1bf4-4256-81a4-a4f9cc4bb316</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84b93b62-6932-4c2a-98a6-7bfb502366dd</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bbd</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bbd"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4d4d3d5-7247-4164-b6b8-77805d7e3d3f</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a40f9d7e-7a1a-486c-a241-a7300b514ce2</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10c2fca5-8a35-48c6-971e-42d1aa437895</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>15MQ040N</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc86e020-9c29-462c-9c57-020d6b8848c5</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>RED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984412875079b91f8896</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="UST_ID" value="5c70984412875079b91f8896"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dace7c25-9490-48a7-9ef5-d71e8fece0a5</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>GREEN</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984412875079b91f8895</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="UST_ID" value="5c70984412875079b91f8895"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d69ee28-341b-4861-a065-cbb6539851f1</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>GREEN</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984412875079b91f8895</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="UST_ID" value="5c70984412875079b91f8895"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3fcdaa31-bb13-461f-b5c7-1d7ff64d3fbc</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>750mA</value>
+      <footprint>Mlab_F:1812</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="Fuse"/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2bc9ea7-47cd-49fa-993d-61fb138aef0f</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>BLM21PG300SN1D</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984412875079b91f87fd</field>
+      </fields>
+      <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
+      <property name="UST_ID" value="5c70984412875079b91f87fd"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="Ferrite bead, small symbol"/>
+      <property name="ki_keywords" value="L ferrite bead inductor filter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd05236a-e7ee-4d63-bd6f-d0fe2da5ccdd</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USBC_USB4105-GF-A</value>
+      <footprint>Mlab_CON:USBC GCT_USB4105-GF-A</footprint>
+      <fields>
+        <field name="UST_ID">5fa0f94612875025b397795e</field>
+      </fields>
+      <libsource lib="MLAB_CONNECTORS" part="USBC_USB4105-GF-A" description="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="UST_ID" value="5fa0f94612875025b397795e"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0abf8ec3-e383-4397-a59f-9abd7498e43e</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>SM06B-GHS-TB</value>
+      <footprint>Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal</footprint>
+      <libsource lib="MLAB_CONNECTORS_JST" part="SM06B-GHS-TB" description="1x07 2.54 mm pitch header"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="1x07 2.54 mm pitch header"/>
+      <property name="ki_keywords" value="1x07, header, connector, pinheader"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2464ef22-09d0-469e-8d63-1aaca15a9631</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>SM06B-GHS-TB</value>
+      <footprint>Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal</footprint>
+      <libsource lib="MLAB_CONNECTORS_JST" part="SM06B-GHS-TB" description="1x07 2.54 mm pitch header"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="1x07 2.54 mm pitch header"/>
+      <property name="ki_keywords" value="1x07, header, connector, pinheader"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a41d7837-99e9-4441-8057-72811cf70c31</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>HOLE_TF</value>
+      <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_keywords" value="HOLE, X, M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07150fcc-da73-41e8-b5bc-83b21169905a</tstamps>
+    </comp>
+    <comp ref="M2">
+      <value>HOLE_TF</value>
+      <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_keywords" value="HOLE, X, M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b96fd542-3f19-4d43-96de-688022c1a9e1</tstamps>
+    </comp>
+    <comp ref="M3">
+      <value>HOLE_TF</value>
+      <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_keywords" value="HOLE, X, M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b04b616-4d75-42e2-90fd-a67aacee2528</tstamps>
+    </comp>
+    <comp ref="M4">
+      <value>HOLE_TF</value>
+      <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_keywords" value="HOLE, X, M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74f42d80-c53a-4cd1-81c3-1ca032ef4173</tstamps>
+    </comp>
+    <comp ref="M5">
+      <value>HOLE_TF</value>
+      <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_keywords" value="HOLE, X, M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>daf55a08-03f8-4aac-ab5b-3c300be303fe</tstamps>
+    </comp>
+    <comp ref="M6">
+      <value>HOLE_TF</value>
+      <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_keywords" value="HOLE, X, M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad796685-f59e-4e5d-b6b6-55644de7de0b</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5fa0fc3e12875025b3977997</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5fa0fc3e12875025b3977997"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>554d742a-fd71-4249-ab41-03042967f073</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5fa0fc3e12875025b3977997</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5fa0fc3e12875025b3977997"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e60bec4-e2e9-4388-9d52-d0c25e1455ba</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984612875079b91f8995</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984612875079b91f8995"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd777abf-bdbd-4714-8f90-3f4c0237f605</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984612875079b91f899f</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984612875079b91f899f"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06591464-f933-4dc0-bd36-dc54d1421a6c</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>270R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8983</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984512875079b91f8983"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17973f09-f013-4b5d-a43c-b4f47ae6b168</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>270R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8983</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984512875079b91f8983"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ff0f9a0-36c9-401d-bb1d-7c25306516a5</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>270R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8983</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984512875079b91f8983"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22361383-43ea-4096-bc54-de49beb1186b</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>USBLC6-2SC6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</datasheet>
+      <fields>
+        <field name="UST_ID">5e82e0691287502a334a778c</field>
+      </fields>
+      <libsource lib="Power_Protection" part="USBLC6-2SC6" description="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
+      <property name="UST_ID" value="5e82e0691287502a334a778c"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
+      <property name="ki_keywords" value="usb ethernet video"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb41c72f-325d-4dbb-a07c-a47f065e844a</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>FT231XQ</value>
+      <footprint>Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm</footprint>
+      <datasheet>https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf</datasheet>
+      <fields>
+        <field name="UST_ID">605d7fe0128750769e769adb</field>
+      </fields>
+      <libsource lib="Interface_USB" part="FT231XQ" description="Full Speed USB to Full Handshake UART, QFN-20"/>
+      <property name="UST_ID" value="605d7fe0128750769e769adb"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="Full Speed USB to Full Handshake UART, QFN-20"/>
+      <property name="ki_keywords" value="FTDI USB UART interface converter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf60e2a1-52c9-4dc4-b2b1-62a324dc68ec</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead_Small">
+      <description>Ferrite bead, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_USB" part="FT231XQ">
+      <description>Full Speed USB to Full Handshake UART, QFN-20</description>
+      <docs>https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf</docs>
+      <footprints>
+        <fp>QFN*4x4mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FT231XQ</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm</field>
+        <field name="Datasheet">https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RXD" type="input"/>
+        <pin num="2" name="~{RI}" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="~{DSR}" type="input"/>
+        <pin num="5" name="~{DCD}" type="input"/>
+        <pin num="6" name="~{CTS}" type="input"/>
+        <pin num="7" name="CBUS2" type="bidirectional"/>
+        <pin num="8" name="USBDP" type="bidirectional"/>
+        <pin num="9" name="USBDM" type="bidirectional"/>
+        <pin num="10" name="3V3OUT" type="power_out"/>
+        <pin num="11" name="~{RESET}" type="input"/>
+        <pin num="12" name="VCC" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="CBUS1" type="bidirectional"/>
+        <pin num="15" name="CBUS0" type="bidirectional"/>
+        <pin num="16" name="CBUS3" type="bidirectional"/>
+        <pin num="17" name="TXD" type="output"/>
+        <pin num="18" name="~{DTR}" type="output"/>
+        <pin num="19" name="~{RTS}" type="output"/>
+        <pin num="20" name="VCCIO" type="power_in"/>
+        <pin num="21" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_CONNECTORS" part="USBC_USB4105-GF-A">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USBC_USB4105-GF-A</field>
+        <field name="Footprint">Mlab_CON:USBC GCT_USB4105-GF-A</field>
+      </fields>
+      <pins>
+        <pin num="A1/B12" name="GND" type="passive"/>
+        <pin num="A4/B9" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="B1/A12" name="GND" type="passive"/>
+        <pin num="B4/A9" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="G1" name="SHIELD" type="passive"/>
+        <pin num="G2" name="SHIELD" type="passive"/>
+        <pin num="G3" name="SHIELD" type="passive"/>
+        <pin num="G4" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_CONNECTORS_JST" part="SM06B-GHS-TB">
+      <description>1x07 2.54 mm pitch header</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SM06B-GHS-TB</field>
+        <field name="Footprint">Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="input"/>
+        <pin num="MP" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_MECHANICAL" part="HOLE_TF">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">HOLE_TF</field>
+        <field name="Footprint">Mlab_Mechanical:dira_3mm</field>
+      </fields>
+    </libpart>
+    <libpart lib="Power_Protection" part="USBLC6-2SC6">
+      <description>Very low capacitance ESD protection diode, 2 data-line, SOT-23-6</description>
+      <docs>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USBLC6-2SC6</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/usblc6-2.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="I/O2" type="passive"/>
+        <pin num="4" name="I/O2" type="passive"/>
+        <pin num="5" name="VBUS" type="passive"/>
+        <pin num="6" name="I/O1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Interface_USB">
+      <uri>/usr/share/kicad/symbols//Interface_USB.kicad_sym</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>/usr/share/kicad/symbols//Power_Protection.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="1" pintype="input"/>
+      <node ref="J3" pin="1" pintype="input"/>
+      <node ref="U2" pin="12" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="/#CTS">
+      <node ref="J2" pin="4" pintype="input"/>
+      <node ref="J3" pin="5" pintype="input"/>
+      <node ref="U2" pin="6" pinfunction="~{CTS}" pintype="input"/>
+    </net>
+    <net code="3" name="/#RTS">
+      <node ref="J2" pin="5" pintype="input"/>
+      <node ref="J3" pin="4" pintype="input"/>
+      <node ref="U2" pin="19" pinfunction="~{RTS}" pintype="output"/>
+    </net>
+    <net code="4" name="/D+">
+      <node ref="J1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J1" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U1" pin="4" pinfunction="I/O2" pintype="passive"/>
+    </net>
+    <net code="5" name="/D-">
+      <node ref="J1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J1" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U1" pin="6" pinfunction="I/O1" pintype="passive"/>
+    </net>
+    <net code="6" name="/DM">
+      <node ref="U1" pin="1" pinfunction="I/O1" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="USBDM" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/DP">
+      <node ref="U1" pin="3" pinfunction="I/O2" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="USBDP" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/RXD">
+      <node ref="J2" pin="3" pintype="input"/>
+      <node ref="J3" pin="2" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="RXD" pintype="input"/>
+    </net>
+    <net code="9" name="/RXLED{slash}CBUS1">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="CBUS1" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/TXD">
+      <node ref="J2" pin="2" pintype="input"/>
+      <node ref="J3" pin="3" pintype="input"/>
+      <node ref="U2" pin="17" pinfunction="TXD" pintype="output"/>
+    </net>
+    <net code="11" name="/TXLED{slash}CBUS2">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="CBUS2" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/VBUS">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="A4/B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B4/A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="13" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J1" pin="A1/B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B1/A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="G1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J1" pin="G2" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J1" pin="G3" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J1" pin="G4" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J2" pin="6" pintype="input"/>
+      <node ref="J2" pin="MP" pintype="input"/>
+      <node ref="J3" pin="6" pintype="input"/>
+      <node ref="J3" pin="MP" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="21" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="14" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="FB1" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D1-A)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="FB1" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D4-K)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(J1-CC1)">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(J1-CC2)">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(U2-3V3OUT)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="3V3OUT" pintype="power_out"/>
+      <node ref="U2" pin="20" pinfunction="VCCIO" pintype="power_in"/>
+    </net>
+    <net code="22" name="Net-(U2-~{RESET})">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="23" name="unconnected-(J1-SBU1-PadA8)">
+      <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(J1-SBU2-PadB8)">
+      <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U2-CBUS0-Pad15)">
+      <node ref="U2" pin="15" pinfunction="CBUS0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U2-CBUS3-Pad16)">
+      <node ref="U2" pin="16" pinfunction="CBUS3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U2-~{DCD}-Pad5)">
+      <node ref="U2" pin="5" pinfunction="~{DCD}" pintype="input+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U2-~{DSR}-Pad4)">
+      <node ref="U2" pin="4" pinfunction="~{DSR}" pintype="input+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U2-~{DTR}-Pad18)">
+      <node ref="U2" pin="18" pinfunction="~{DTR}" pintype="output+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U2-~{RI}-Pad2)">
+      <node ref="U2" pin="2" pinfunction="~{RI}" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

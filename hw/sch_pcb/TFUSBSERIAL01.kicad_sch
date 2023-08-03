@@ -16,6 +16,41 @@
   )
 
   (lib_symbols
+    (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "TP" (at 0 6.858 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "TestPoint" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "test point tp" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "test point" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Pin* Test*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "TestPoint_0_1"
+        (circle (center 0 3.302) (radius 0.762)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "TestPoint_1_1"
+        (pin passive line (at 0 0 90) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -1233,13 +1268,13 @@
     )
   )
 
-  (junction (at 239.395 111.76) (diameter 1.016) (color 0 0 0 0)
+  (junction (at 248.285 140.335) (diameter 1.016) (color 0 0 0 0)
     (uuid 03aa0914-b1db-4594-bac2-eb16cd3f0233)
   )
   (junction (at 128.905 66.04) (diameter 0) (color 0 0 0 0)
     (uuid 1fd93cfb-fca3-45d0-b7b0-812b7c903c81)
   )
-  (junction (at 199.39 111.76) (diameter 1.016) (color 0 0 0 0)
+  (junction (at 208.28 140.335) (diameter 1.016) (color 0 0 0 0)
     (uuid 5105c2bb-35f8-437d-93ae-87b7ac7be3c7)
   )
   (junction (at 143.51 82.55) (diameter 1.016) (color 0 0 0 0)
@@ -1257,13 +1292,13 @@
   (junction (at 24.765 60.96) (diameter 1.016) (color 0 0 0 0)
     (uuid aae13ca5-c7ca-4b4d-baf2-d0a849213a7a)
   )
-  (junction (at 99.695 66.04) (diameter 0) (color 0 0 0 0)
+  (junction (at 107.315 66.04) (diameter 0) (color 0 0 0 0)
     (uuid af44312d-c8e0-4a98-844b-b654c16032bf)
   )
   (junction (at 52.705 35.56) (diameter 1.016) (color 0 0 0 0)
     (uuid b14425e3-f50b-45f2-8fd6-60f5c177bcc6)
   )
-  (junction (at 80.645 66.04) (diameter 1.016) (color 0 0 0 0)
+  (junction (at 88.265 66.04) (diameter 1.016) (color 0 0 0 0)
     (uuid b4406f55-2331-407a-93df-2ae5717a09a7)
   )
   (junction (at 56.515 27.94) (diameter 1.016) (color 0 0 0 0)
@@ -1272,16 +1307,15 @@
   (junction (at 95.25 109.22) (diameter 1.016) (color 0 0 0 0)
     (uuid d3a207f6-42c4-4cc2-bcb8-040cccfd003e)
   )
+  (junction (at 247.65 110.49) (diameter 0) (color 0 0 0 0)
+    (uuid e9c60640-2e5d-4c52-af09-281d4abf3c83)
+  )
   (junction (at 138.43 66.04) (diameter 1.016) (color 0 0 0 0)
     (uuid fd40e706-1095-47e9-9de7-57169044ea9a)
   )
 
-  (no_connect (at 158.75 104.14) (uuid 00cc9842-2048-471d-92bd-b2b5dda383fe))
   (no_connect (at 43.815 49.53) (uuid 3ed669c2-7558-4740-aa9d-62474ae4932e))
   (no_connect (at 43.815 52.07) (uuid 4748c732-d88b-4c80-874d-99935faf9700))
-  (no_connect (at 158.75 111.76) (uuid 520f9c16-c260-45cf-bf16-66120cf2ab26))
-  (no_connect (at 158.75 106.68) (uuid 7c417ae9-1944-413e-a2bd-0492aaa487c2))
-  (no_connect (at 158.75 109.22) (uuid a0bb9d0f-f405-4cfb-bee2-baa5c9debb6b))
   (no_connect (at 158.75 124.46) (uuid abff5e4e-8340-44d4-897a-423a270166cd))
   (no_connect (at 158.75 116.84) (uuid c879ffb7-13cd-4a9b-8d71-944b27239108))
 
@@ -1297,7 +1331,7 @@
     (stroke (width 0) (type solid))
     (uuid 016d716b-1a75-41b3-a9e1-b4da1dd75869)
   )
-  (wire (pts (xy 200.66 111.76) (xy 199.39 111.76))
+  (wire (pts (xy 209.55 140.335) (xy 208.28 140.335))
     (stroke (width 0) (type solid))
     (uuid 0aacc1c1-4bf1-40ea-b828-7b0ffbb4c20a)
   )
@@ -1305,11 +1339,11 @@
     (stroke (width 0) (type solid))
     (uuid 0cabddc2-d862-427f-ab4b-d2ddd485e1e5)
   )
-  (wire (pts (xy 80.645 74.93) (xy 80.645 76.2))
+  (wire (pts (xy 88.265 74.93) (xy 88.265 76.2))
     (stroke (width 0) (type solid))
     (uuid 1048745a-bd11-4fab-828a-c8664e61ea92)
   )
-  (wire (pts (xy 239.395 109.22) (xy 239.395 111.76))
+  (wire (pts (xy 248.285 137.795) (xy 248.285 140.335))
     (stroke (width 0) (type solid))
     (uuid 11ba5190-c7e5-4d83-b19c-591e2195ce6e)
   )
@@ -1325,13 +1359,13 @@
     (stroke (width 0) (type solid))
     (uuid 1c6dae8a-a60a-4566-832c-7fbf56b3fc0a)
   )
+  (wire (pts (xy 158.75 106.68) (xy 172.72 106.68))
+    (stroke (width 0) (type default))
+    (uuid 1e0bed50-3728-4596-a78b-195247d6bc6c)
+  )
   (wire (pts (xy 59.055 27.94) (xy 59.055 30.48))
     (stroke (width 0) (type solid))
     (uuid 1edc911e-ab26-4e96-a65b-52bd6f3f5c8b)
-  )
-  (wire (pts (xy 158.75 101.6) (xy 165.1 101.6))
-    (stroke (width 0) (type solid))
-    (uuid 1f8e2837-523d-461c-a9ef-937de0148455)
   )
   (wire (pts (xy 156.21 80.01) (xy 156.21 82.55))
     (stroke (width 0) (type solid))
@@ -1341,13 +1375,17 @@
     (stroke (width 0) (type solid))
     (uuid 21894a41-598b-4000-961a-3970ae158436)
   )
-  (wire (pts (xy 90.805 66.04) (xy 99.695 66.04))
+  (wire (pts (xy 98.425 66.04) (xy 107.315 66.04))
     (stroke (width 0) (type solid))
     (uuid 248c61da-b427-4607-a896-cfd5505144a3)
   )
   (wire (pts (xy 52.705 34.29) (xy 52.705 35.56))
     (stroke (width 0) (type solid))
     (uuid 27076069-c1fd-4fa5-ac7a-7be5564f5e6e)
+  )
+  (wire (pts (xy 158.75 99.06) (xy 161.925 99.06))
+    (stroke (width 0) (type default))
+    (uuid 28dcfb06-7386-4a86-bc6f-227f03fb70fa)
   )
   (wire (pts (xy 247.015 45.085) (xy 247.015 47.625))
     (stroke (width 0) (type solid))
@@ -1357,7 +1395,11 @@
     (stroke (width 0) (type solid))
     (uuid 2a57342e-686f-4dcc-982d-bb582ebb1e09)
   )
-  (wire (pts (xy 239.395 111.76) (xy 239.395 113.665))
+  (wire (pts (xy 169.545 99.06) (xy 171.45 99.06))
+    (stroke (width 0) (type default))
+    (uuid 2a612d5c-4d5f-45ab-8c07-7bfca4a90a5f)
+  )
+  (wire (pts (xy 248.285 140.335) (xy 248.285 142.24))
     (stroke (width 0) (type solid))
     (uuid 2af04a02-ce66-456a-bd6f-45fbb822027c)
   )
@@ -1369,7 +1411,7 @@
     (stroke (width 0) (type solid))
     (uuid 2d4f23a5-0c2b-43cb-b3b9-d6f52423b963)
   )
-  (wire (pts (xy 199.39 111.76) (xy 199.39 113.665))
+  (wire (pts (xy 208.28 140.335) (xy 208.28 142.24))
     (stroke (width 0) (type solid))
     (uuid 2f6f6e95-545f-49c2-b85e-44876995d8a8)
   )
@@ -1381,7 +1423,7 @@
     (stroke (width 0) (type solid))
     (uuid 388b3656-f197-4037-bdc4-79e5b3eac08a)
   )
-  (wire (pts (xy 80.645 66.04) (xy 85.725 66.04))
+  (wire (pts (xy 88.265 66.04) (xy 93.345 66.04))
     (stroke (width 0) (type solid))
     (uuid 38f4187a-ecad-4feb-8f77-21e921b7ff88)
   )
@@ -1393,15 +1435,27 @@
     (stroke (width 0) (type solid))
     (uuid 3d70635d-0718-4822-af94-61e694d12b2d)
   )
-  (wire (pts (xy 233.045 104.14) (xy 240.665 104.14))
+  (wire (pts (xy 169.545 96.52) (xy 171.45 96.52))
+    (stroke (width 0) (type default))
+    (uuid 3d8c2a33-600b-4d27-8cb8-463fac062c0e)
+  )
+  (wire (pts (xy 247.65 99.06) (xy 247.65 100.965))
+    (stroke (width 0) (type default))
+    (uuid 3dc99439-d254-4f4c-8bc5-f9cb47bb84bc)
+  )
+  (wire (pts (xy 241.935 132.715) (xy 249.555 132.715))
     (stroke (width 0) (type solid))
     (uuid 3ea2e678-c4ab-4e4c-9253-f577df1d6345)
   )
-  (wire (pts (xy 198.755 91.44) (xy 198.755 96.52))
+  (wire (pts (xy 207.645 110.49) (xy 207.645 125.095))
     (stroke (width 0) (type solid))
     (uuid 3eb2a9a7-ea26-4df3-b538-064cabdc6eeb)
   )
-  (wire (pts (xy 200.66 109.22) (xy 199.39 109.22))
+  (wire (pts (xy 169.545 101.6) (xy 171.45 101.6))
+    (stroke (width 0) (type default))
+    (uuid 423f1589-ec88-4e4b-89f9-af10232697c6)
+  )
+  (wire (pts (xy 209.55 137.795) (xy 208.28 137.795))
     (stroke (width 0) (type solid))
     (uuid 42647e5a-a6ef-42dc-8baf-dc9d96c120e8)
   )
@@ -1409,25 +1463,33 @@
     (stroke (width 0) (type solid))
     (uuid 454d8311-f1d3-45a5-8ff0-2c83d73a4e21)
   )
-  (wire (pts (xy 240.665 111.76) (xy 239.395 111.76))
+  (wire (pts (xy 207.645 110.49) (xy 247.65 110.49))
+    (stroke (width 0) (type default))
+    (uuid 48c9dbdf-b620-4354-8d2a-feb52548549e)
+  )
+  (wire (pts (xy 158.75 96.52) (xy 161.925 96.52))
+    (stroke (width 0) (type default))
+    (uuid 4acbf6b6-b523-491d-abca-e01563d75330)
+  )
+  (wire (pts (xy 249.555 140.335) (xy 248.285 140.335))
     (stroke (width 0) (type solid))
     (uuid 4eb62f7d-4056-4e8d-a54e-2910e8d5248c)
   )
-  (wire (pts (xy 158.75 99.06) (xy 165.1 99.06))
-    (stroke (width 0) (type solid))
-    (uuid 502bbb37-4c12-4f18-a395-e46600b5cff3)
+  (wire (pts (xy 169.545 93.98) (xy 171.45 93.98))
+    (stroke (width 0) (type default))
+    (uuid 50fa19fc-8414-4ed4-81ed-15873c812e62)
   )
   (wire (pts (xy 273.05 55.245) (xy 273.05 57.785))
     (stroke (width 0) (type solid))
     (uuid 52d05c00-a4a6-4aa8-91d8-4d5966c12795)
   )
+  (wire (pts (xy 247.65 110.49) (xy 247.65 112.395))
+    (stroke (width 0) (type default))
+    (uuid 533a227b-a594-4f0f-abf2-df519b5953a3)
+  )
   (wire (pts (xy 143.51 82.55) (xy 156.21 82.55))
     (stroke (width 0) (type solid))
     (uuid 53587002-e190-4719-bb70-9da0c4f23d76)
-  )
-  (wire (pts (xy 158.75 93.98) (xy 165.1 93.98))
-    (stroke (width 0) (type solid))
-    (uuid 53afbce0-cca3-40e9-a886-94db1ebb00c8)
   )
   (wire (pts (xy 120.65 104.14) (xy 123.19 104.14))
     (stroke (width 0) (type solid))
@@ -1437,19 +1499,19 @@
     (stroke (width 0) (type solid))
     (uuid 56243fe6-d24f-4d33-9285-02fc3ccbd3ed)
   )
-  (wire (pts (xy 199.39 109.22) (xy 199.39 111.76))
+  (wire (pts (xy 208.28 137.795) (xy 208.28 140.335))
     (stroke (width 0) (type solid))
     (uuid 592f244e-9601-4a37-9120-ea51e648f08f)
   )
-  (wire (pts (xy 193.04 106.68) (xy 200.66 106.68))
+  (wire (pts (xy 201.93 135.255) (xy 209.55 135.255))
     (stroke (width 0) (type solid))
     (uuid 5bcb518f-e908-49d8-9d56-f484d24dcbe0)
   )
-  (wire (pts (xy 233.045 101.6) (xy 240.665 101.6))
+  (wire (pts (xy 241.935 130.175) (xy 249.555 130.175))
     (stroke (width 0) (type solid))
     (uuid 5d011336-76a8-40c4-804f-8be72664a0d9)
   )
-  (wire (pts (xy 80.645 66.04) (xy 80.645 67.31))
+  (wire (pts (xy 88.265 66.04) (xy 88.265 67.31))
     (stroke (width 0) (type solid))
     (uuid 5de7dbba-b0a6-4358-ae28-cf84a25af127)
   )
@@ -1457,13 +1519,9 @@
     (stroke (width 0) (type solid))
     (uuid 6354ab61-d56a-4e73-b9f1-04ec6fa77f15)
   )
-  (wire (pts (xy 233.045 99.06) (xy 240.665 99.06))
+  (wire (pts (xy 241.935 127.635) (xy 249.555 127.635))
     (stroke (width 0) (type solid))
     (uuid 66fdc641-c185-447b-9031-7852d616442d)
-  )
-  (wire (pts (xy 123.19 66.04) (xy 128.905 66.04))
-    (stroke (width 0) (type default))
-    (uuid 69246b72-a222-47d2-9737-cbb6c9281272)
   )
   (wire (pts (xy 247.015 65.405) (xy 247.015 67.945))
     (stroke (width 0) (type solid))
@@ -1473,6 +1531,10 @@
     (stroke (width 0) (type solid))
     (uuid 7115fb39-9e5d-4213-b2ec-2c5a26ac4c55)
   )
+  (wire (pts (xy 247.65 108.585) (xy 247.65 110.49))
+    (stroke (width 0) (type default))
+    (uuid 75e9b2f6-eb7f-4746-b703-b7358f26ca43)
+  )
   (wire (pts (xy 260.35 55.245) (xy 260.35 57.785))
     (stroke (width 0) (type solid))
     (uuid 76d3d026-8377-4d73-8877-54b8e2253e6d)
@@ -1481,7 +1543,7 @@
     (stroke (width 0) (type solid))
     (uuid 785a521e-a623-49e2-98fe-a4619b23c8ab)
   )
-  (wire (pts (xy 99.695 66.04) (xy 99.695 67.31))
+  (wire (pts (xy 107.315 66.04) (xy 107.315 67.31))
     (stroke (width 0) (type solid))
     (uuid 794479fd-9954-4c4c-a680-0c934c24be41)
   )
@@ -1489,15 +1551,15 @@
     (stroke (width 0) (type solid))
     (uuid 918a2f4a-eaa9-4e8b-a936-0d9ad00c5301)
   )
-  (wire (pts (xy 233.045 106.68) (xy 240.665 106.68))
+  (wire (pts (xy 241.935 135.255) (xy 249.555 135.255))
     (stroke (width 0) (type solid))
     (uuid 9243d952-db7c-43a1-8778-bab638c1308f)
   )
-  (wire (pts (xy 193.04 104.14) (xy 200.66 104.14))
+  (wire (pts (xy 201.93 132.715) (xy 209.55 132.715))
     (stroke (width 0) (type solid))
     (uuid 92548216-8480-4304-a0c9-309debefb27d)
   )
-  (wire (pts (xy 75.565 66.04) (xy 80.645 66.04))
+  (wire (pts (xy 83.185 66.04) (xy 88.265 66.04))
     (stroke (width 0) (type solid))
     (uuid 98325454-99a8-4337-8712-54ceb06cb997)
   )
@@ -1513,13 +1575,17 @@
     (stroke (width 0) (type solid))
     (uuid 9d784183-6f07-4833-bf3f-9772a7228755)
   )
-  (wire (pts (xy 193.04 99.06) (xy 200.66 99.06))
+  (wire (pts (xy 201.93 127.635) (xy 209.55 127.635))
     (stroke (width 0) (type solid))
     (uuid 9db32ac3-97b3-4f3c-806e-45982fe12493)
   )
   (wire (pts (xy 260.35 65.405) (xy 260.35 67.945))
     (stroke (width 0) (type solid))
     (uuid 9e6b0cbd-e7cf-4d84-b634-14c075682fb1)
+  )
+  (wire (pts (xy 158.75 93.98) (xy 161.925 93.98))
+    (stroke (width 0) (type default))
+    (uuid a1df6cbc-7261-4e1e-9121-eb61ca7296e0)
   )
   (wire (pts (xy 24.765 60.96) (xy 24.765 61.595))
     (stroke (width 0) (type solid))
@@ -1528,6 +1594,10 @@
   (wire (pts (xy 138.43 53.975) (xy 138.43 66.04))
     (stroke (width 0) (type solid))
     (uuid a8e04e28-2b9e-4cd9-9427-8a0752f9f473)
+  )
+  (wire (pts (xy 158.75 104.14) (xy 172.72 104.14))
+    (stroke (width 0) (type default))
+    (uuid a9e44466-7b3c-47bc-9b55-d321bb3ad71b)
   )
   (wire (pts (xy 143.51 133.35) (xy 143.51 132.08))
     (stroke (width 0) (type solid))
@@ -1544,6 +1614,10 @@
   (wire (pts (xy 52.705 40.64) (xy 52.705 41.91))
     (stroke (width 0) (type solid))
     (uuid b12a421e-da31-4372-aa9d-49720f32b33c)
+  )
+  (wire (pts (xy 158.75 109.22) (xy 172.72 109.22))
+    (stroke (width 0) (type default))
+    (uuid b148bc79-f620-4332-b9d5-512901a50f60)
   )
   (wire (pts (xy 273.05 65.405) (xy 273.05 67.945))
     (stroke (width 0) (type solid))
@@ -1564,6 +1638,10 @@
   (wire (pts (xy 120.65 101.6) (xy 123.19 101.6))
     (stroke (width 0) (type solid))
     (uuid b876e029-d20b-483d-b395-7f4c792d3f5e)
+  )
+  (wire (pts (xy 158.75 101.6) (xy 161.925 101.6))
+    (stroke (width 0) (type default))
+    (uuid bc555bc1-4bb6-4ec4-96ce-2be682224e90)
   )
   (wire (pts (xy 158.75 119.38) (xy 173.99 119.38))
     (stroke (width 0) (type solid))
@@ -1593,7 +1671,7 @@
     (stroke (width 0) (type solid))
     (uuid d0a93d47-8326-45c6-a8a1-5bd1a052402a)
   )
-  (wire (pts (xy 193.04 101.6) (xy 200.66 101.6))
+  (wire (pts (xy 201.93 130.175) (xy 209.55 130.175))
     (stroke (width 0) (type solid))
     (uuid d0f304c1-2463-4a12-86bd-c2d63bbde6db)
   )
@@ -1601,7 +1679,7 @@
     (stroke (width 0) (type solid))
     (uuid d20a27a8-1ce2-4570-af9b-2b0a49ef2589)
   )
-  (wire (pts (xy 99.695 74.93) (xy 99.695 76.2))
+  (wire (pts (xy 107.315 74.93) (xy 107.315 76.2))
     (stroke (width 0) (type solid))
     (uuid d71f4f6c-a2b8-492e-931b-ba64c1102d2a)
   )
@@ -1609,7 +1687,7 @@
     (stroke (width 0) (type solid))
     (uuid d7ab71f2-2b55-4092-a0e5-bf7fbc6518a2)
   )
-  (wire (pts (xy 238.76 91.44) (xy 238.76 96.52))
+  (wire (pts (xy 247.65 120.015) (xy 247.65 125.095))
     (stroke (width 0) (type solid))
     (uuid dc451698-b26d-4589-b7d8-b09b65a85861)
   )
@@ -1621,13 +1699,13 @@
     (stroke (width 0) (type solid))
     (uuid e409644c-0561-4b02-9dae-72534e4b0c74)
   )
-  (wire (pts (xy 64.135 66.04) (xy 67.945 66.04))
-    (stroke (width 0) (type solid))
-    (uuid e7c7cbbd-c16a-423e-95e3-c1da1df73c5f)
-  )
-  (wire (pts (xy 99.695 66.04) (xy 115.57 66.04))
+  (wire (pts (xy 107.315 66.04) (xy 128.905 66.04))
     (stroke (width 0) (type default))
     (uuid e9901f52-8bc2-4668-8a2d-c07efa97ffbf)
+  )
+  (wire (pts (xy 158.75 111.76) (xy 172.72 111.76))
+    (stroke (width 0) (type default))
+    (uuid ea44c559-08cc-49b0-8eec-aa8780c4c93a)
   )
   (wire (pts (xy 106.68 93.98) (xy 123.19 93.98))
     (stroke (width 0) (type solid))
@@ -1637,7 +1715,7 @@
     (stroke (width 0) (type solid))
     (uuid ed6e863c-acbd-417e-aa02-42d622b4e6e8)
   )
-  (wire (pts (xy 240.665 96.52) (xy 238.76 96.52))
+  (wire (pts (xy 249.555 125.095) (xy 247.65 125.095))
     (stroke (width 0) (type solid))
     (uuid eea3d8e0-3b1e-475c-b128-1524bd91ee2e)
   )
@@ -1649,7 +1727,7 @@
     (stroke (width 0) (type solid))
     (uuid f09b73e2-340a-40a6-985c-39015bbb4011)
   )
-  (wire (pts (xy 240.665 109.22) (xy 239.395 109.22))
+  (wire (pts (xy 249.555 137.795) (xy 248.285 137.795))
     (stroke (width 0) (type solid))
     (uuid f21a6db1-3139-4e42-b96b-fd1d13aee354)
   )
@@ -1673,15 +1751,11 @@
     (stroke (width 0) (type solid))
     (uuid f7f41fdc-6caf-4d20-bd11-bea48cb622e1)
   )
-  (wire (pts (xy 158.75 96.52) (xy 165.1 96.52))
-    (stroke (width 0) (type solid))
-    (uuid f83b0385-c22f-4cc5-9f09-11fa818afc95)
-  )
   (wire (pts (xy 33.02 116.205) (xy 33.02 117.475))
     (stroke (width 0) (type solid))
     (uuid f8c305bb-f258-41d7-8fec-fed431bf8c3d)
   )
-  (wire (pts (xy 200.66 96.52) (xy 198.755 96.52))
+  (wire (pts (xy 209.55 125.095) (xy 207.645 125.095))
     (stroke (width 0) (type solid))
     (uuid fb862f3c-1122-47a7-9f80-ee06235847ba)
   )
@@ -1690,24 +1764,20 @@
     (uuid fdcbf2b9-16b9-4c0d-b54a-1040011a50bd)
   )
 
-  (text "to DEVICE" (at 213.995 93.345 0)
+  (text "to DEVICE" (at 222.885 121.92 0)
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 80b2edc0-7fed-474c-b0f0-dc9e36acdfa3)
   )
-  (text "to FMU" (at 252.73 93.345 0)
+  (text "to FMU" (at 261.62 121.92 0)
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid d2fa12b8-6a85-4be1-9cc5-2dd6252bd5a6)
   )
-  (text "Budou tu LED?" (at 274.32 38.735 0)
-    (effects (font (size 1.524 1.524)) (justify right bottom))
-    (uuid e26112a3-9d7e-4ee4-b627-58d6fe93f5f4)
-  )
 
-  (label "RXD" (at 165.1 96.52 0) (fields_autoplaced)
+  (label "RXD" (at 171.45 96.52 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 01a4cd8a-f153-4ca3-871a-8520628f9195)
   )
-  (label "#CTS" (at 233.045 106.68 0) (fields_autoplaced)
+  (label "#CTS" (at 241.935 135.255 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 03db08b4-1059-405b-8e99-b16cf737067d)
   )
@@ -1719,15 +1789,15 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 116ea5b8-de4f-43ba-ba73-3ceab6ac4a9a)
   )
-  (label "VBUS" (at 64.135 66.04 180) (fields_autoplaced)
+  (label "VBUS" (at 83.185 66.04 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1a77910d-f809-4c05-9fd5-4858b54d4921)
   )
-  (label "#CTS" (at 165.1 101.6 0) (fields_autoplaced)
+  (label "#CTS" (at 171.45 101.6 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 274d0387-8ad1-4226-ad7b-aeed25fdd964)
   )
-  (label "RXD" (at 193.04 101.6 0) (fields_autoplaced)
+  (label "RXD" (at 201.93 130.175 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 27e79a12-6755-4dd1-b09d-7e8a8ccc66e1)
   )
@@ -1735,7 +1805,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 29b02270-9067-4caf-bd99-2d1a581f8beb)
   )
-  (label "TXD" (at 165.1 93.98 0) (fields_autoplaced)
+  (label "TXD" (at 171.45 93.98 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 445e8f27-d04d-4271-91a1-090af32e9cfe)
   )
@@ -1743,11 +1813,11 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 4a400e96-70a7-422c-949d-c4eb7b5e21b2)
   )
-  (label "TXD" (at 233.045 101.6 0) (fields_autoplaced)
+  (label "TXD" (at 241.935 130.175 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 582b26ba-14c0-446d-82bd-173aedaf4c23)
   )
-  (label "RXD" (at 233.045 99.06 0) (fields_autoplaced)
+  (label "RXD" (at 241.935 127.635 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 593d6f27-fe17-41eb-bc4a-78d5a60851f5)
   )
@@ -1779,15 +1849,15 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 88a4d95b-adb9-4567-a012-00e904298785)
   )
-  (label "#RTS" (at 165.1 99.06 0) (fields_autoplaced)
+  (label "#RTS" (at 171.45 99.06 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 91708fdd-9413-4ec5-8f4c-177e25aa7122)
   )
-  (label "#RTS" (at 193.04 106.68 0) (fields_autoplaced)
+  (label "#RTS" (at 201.93 135.255 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 947c6841-97cd-4842-b927-850f740360b8)
   )
-  (label "#RTS" (at 233.045 104.14 0) (fields_autoplaced)
+  (label "#RTS" (at 241.935 132.715 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 95d06dac-226f-4a95-b4ea-a39f15a6c91f)
   )
@@ -1799,7 +1869,7 @@
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 9a706388-b021-4c76-be65-f0f5a82a7bba)
   )
-  (label "TXD" (at 193.04 99.06 0) (fields_autoplaced)
+  (label "TXD" (at 201.93 127.635 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid a90e7229-e249-4bbf-8789-65a576998c09)
   )
@@ -1811,7 +1881,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid eddc199f-51c7-4a5d-930c-6470afd95100)
   )
-  (label "#CTS" (at 193.04 104.14 0) (fields_autoplaced)
+  (label "#CTS" (at 201.93 132.715 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid f9e78a6d-0e4a-4eee-ac91-820452007b30)
   )
@@ -1837,7 +1907,7 @@
     (pin "1" (uuid f4dce89a-39ed-40a2-8eba-89f3f41ffa79))
     (pin "2" (uuid 0ffb5ac1-348e-4336-b4f2-01d069a84ee5))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "R4") (unit 1)
         )
@@ -1861,7 +1931,7 @@
       (effects (font (size 1.524 1.524)))
     )
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "M1") (unit 1)
         )
@@ -1904,7 +1974,7 @@
     (pin "G3" (uuid 9f291c26-0947-4c97-8a57-470f3f04138a))
     (pin "G4" (uuid 26b1c5d7-0787-41bb-98ac-b5d68b419e61))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "J1") (unit 1)
         )
@@ -1912,24 +1982,24 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 238.76 91.44 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 247.65 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b7d6c8f-10ae-4f1f-8626-2a21aa931ec7)
-    (property "Reference" "#PWR0106" (at 238.76 95.25 0)
+    (property "Reference" "#PWR0106" (at 247.65 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 238.76 87.8926 0)
+    (property "Value" "+5V" (at 247.65 95.5126 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 238.76 91.44 0)
+    (property "Footprint" "" (at 247.65 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 238.76 91.44 0)
+    (property "Datasheet" "" (at 247.65 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 77f4cd76-3276-4d2a-a0e9-e2a44d0341d2))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "#PWR0106") (unit 1)
         )
@@ -1954,7 +2024,7 @@
     )
     (pin "1" (uuid 8b719432-61e3-4016-a72a-495d84cef1be))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "#PWR0117") (unit 1)
         )
@@ -1968,7 +2038,7 @@
     (property "Reference" "R6" (at 274.8281 60.4456 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "270R" (at 274.828 62.744 0)
+    (property "Value" "140R" (at 274.828 62.744 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 271.272 61.595 90)
@@ -1977,13 +2047,13 @@
     (property "Datasheet" "~" (at 273.05 61.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UST_ID" "5c70984512875079b91f8983" (at 273.05 61.595 0)
+    (property "UST_ID" "" (at 273.05 61.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d4cbe1dd-4c9c-42d5-8095-742f90f6bb51))
     (pin "2" (uuid 1b0706ff-49fd-4354-b1e0-f1dc27513dbc))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "R6") (unit 1)
         )
@@ -2012,7 +2082,7 @@
     (pin "1" (uuid 9e14af5f-96cf-4f2f-985b-a621d53a52d0))
     (pin "2" (uuid db0f896b-292f-4202-8b4f-d83a05259638))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "C5") (unit 1)
         )
@@ -2026,7 +2096,7 @@
     (property "Reference" "R5" (at 262.1281 60.4456 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "270R" (at 262.128 62.744 0)
+    (property "Value" "290R" (at 262.128 62.744 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 258.572 61.595 90)
@@ -2035,13 +2105,13 @@
     (property "Datasheet" "~" (at 260.35 61.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UST_ID" "5c70984512875079b91f8983" (at 260.35 61.595 0)
+    (property "UST_ID" "" (at 260.35 61.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b556a5d1-a082-433e-81ed-a755695a596c))
     (pin "2" (uuid 45df43ea-ca81-4f81-95df-f15f93087b92))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "R5") (unit 1)
         )
@@ -2066,7 +2136,7 @@
     )
     (pin "1" (uuid 9f3b6094-755a-4c2a-a333-efb50f84c19c))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "#PWR0108") (unit 1)
         )
@@ -2091,9 +2161,34 @@
     )
     (pin "1" (uuid ba738b4f-bd4c-44a0-b6ef-9cac7c22dd8b))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "#PWR02") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 172.72 111.76 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 21a5ad0e-539f-4564-b041-b1ee529203d8)
+    (property "Reference" "TP4" (at 177.419 110.736 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "#RI" (at 169.545 110.49 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 172.72 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 172.72 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ff1069aa-12a8-4532-9f14-5ec795b9ad91))
+    (instances
+      (project "TFUSBSERIAL01"
+        (path "/2bba972d-fb08-481b-94d3-048811539baf"
+          (reference "TP4") (unit 1)
         )
       )
     )
@@ -2105,7 +2200,7 @@
     (property "Reference" "R7" (at 248.7931 60.4456 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "270R" (at 248.793 62.744 0)
+    (property "Value" "140R" (at 248.793 62.744 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 245.237 61.595 90)
@@ -2114,13 +2209,13 @@
     (property "Datasheet" "~" (at 247.015 61.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UST_ID" "5c70984512875079b91f8983" (at 247.015 61.595 0)
+    (property "UST_ID" "" (at 247.015 61.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a81a5589-3a77-4775-be1a-e2c8004d2321))
     (pin "2" (uuid e3412f16-7f2b-4ef8-b49b-68ec7b12d8f6))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "R7") (unit 1)
         )
@@ -2128,19 +2223,48 @@
     )
   )
 
-  (symbol (lib_id "MLAB_CONNECTORS_JST:SM06B-GHS-TB") (at 205.74 104.14 0) (unit 1)
+  (symbol (lib_id "Device:R") (at 165.735 96.52 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 22c23d30-b900-4b17-854a-5998ef8c799c)
+    (property "Reference" "R9" (at 161.29 95.25 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100R" (at 168.275 96.52 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 165.735 98.298 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 165.735 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "UST_ID" "" (at 165.735 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8b45fc11-018c-4e0a-b7e2-d2bf28cf5b65))
+    (pin "2" (uuid 73feebf8-8a53-4ebc-93bd-1ef42ba4504d))
+    (instances
+      (project "TFUSBSERIAL01"
+        (path "/2bba972d-fb08-481b-94d3-048811539baf"
+          (reference "R9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MLAB_CONNECTORS_JST:SM06B-GHS-TB") (at 214.63 132.715 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2464ef22-09d0-469e-8d63-1aaca15a9631)
-    (property "Reference" "J2" (at 207.6451 103.2524 0)
+    (property "Reference" "J2" (at 216.5351 131.8274 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Value" "SM06B-GHS-TB" (at 207.6451 105.96 0)
+    (property "Value" "SM06B-GHS-TB" (at 216.5351 134.535 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal" (at 205.74 96.52 0)
+    (property "Footprint" "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal" (at 214.63 125.095 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 205.74 96.52 0)
+    (property "Datasheet" "" (at 214.63 125.095 0)
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid c34bbeb6-dfca-438a-87f2-fbec0b0b61d0))
@@ -2151,7 +2275,7 @@
     (pin "6" (uuid 4458bf88-6ac0-4893-8fc9-224d8c5b2f28))
     (pin "MP" (uuid 5d763ccf-3fec-4741-bad3-05ba95ebe3aa))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "J2") (unit 1)
         )
@@ -2159,26 +2283,51 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 99.695 76.2 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 107.315 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a676489-42ce-4b57-9369-d6b769fa09d5)
-    (property "Reference" "#PWR0104" (at 99.695 82.55 0)
+    (property "Reference" "#PWR0104" (at 107.315 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 99.8093 80.5244 0)
+    (property "Value" "GND" (at 107.4293 80.5244 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 99.695 76.2 0)
+    (property "Footprint" "" (at 107.315 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 99.695 76.2 0)
+    (property "Datasheet" "" (at 107.315 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c2bda1cd-e88d-44a0-bd25-1804e4e29028))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "#PWR0104") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 172.72 109.22 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 2d07e0e8-9869-4159-bdf3-1851d299def8)
+    (property "Reference" "TP3" (at 177.419 108.196 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "#DCD" (at 169.545 107.95 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 172.72 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 172.72 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0a9e5db4-4afb-4dc2-a31b-44af24695819))
+    (instances
+      (project "TFUSBSERIAL01"
+        (path "/2bba972d-fb08-481b-94d3-048811539baf"
+          (reference "TP3") (unit 1)
         )
       )
     )
@@ -2200,7 +2349,7 @@
       (effects (font (size 1.524 1.524)))
     )
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "M3") (unit 1)
         )
@@ -2225,7 +2374,7 @@
     )
     (pin "1" (uuid 29622beb-eb7d-4080-89b2-255eccd8818c))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "#PWR0103") (unit 1)
         )
@@ -2233,24 +2382,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 239.395 113.665 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 248.285 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ca1f729-8395-4598-a7a7-2e4af84b7eb9)
-    (property "Reference" "#PWR0109" (at 239.395 120.015 0)
+    (property "Reference" "#PWR0109" (at 248.285 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 239.522 118.0592 0)
+    (property "Value" "GND" (at 248.412 146.6342 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 239.395 113.665 0)
+    (property "Footprint" "" (at 248.285 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 239.395 113.665 0)
+    (property "Datasheet" "" (at 248.285 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fb7ac85b-b82f-4a81-8093-39552ccab5c4))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "#PWR0109") (unit 1)
         )
@@ -2273,13 +2422,13 @@
     (property "Datasheet" "~" (at 247.015 51.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UST_ID" "5c70984412875079b91f8895" (at 247.015 51.435 0)
+    (property "UST_ID" "60d582331287500165f859d0" (at 247.015 51.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5779bcee-fcee-4ac1-a299-0c5ddda3b760))
     (pin "2" (uuid 6103bd72-fac7-401f-8b2b-a88454f47fd3))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "D4") (unit 1)
         )
@@ -2308,7 +2457,7 @@
     (pin "1" (uuid a3e05dd9-310e-450c-8582-4f74f9c11c01))
     (pin "2" (uuid 45468725-a82d-4ed3-9de8-a08c24075655))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "R1") (unit 1)
         )
@@ -2337,7 +2486,7 @@
     (pin "1" (uuid 01a07141-ab76-4d0b-a90b-826b4f1c7708))
     (pin "2" (uuid c0000eab-ce2a-4e49-9b08-8912b67d9c3c))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "R2") (unit 1)
         )
@@ -2362,34 +2511,9 @@
     )
     (pin "1" (uuid fd593075-c9ff-4513-8f5f-686a50284aff))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "#PWR01") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 198.755 91.44 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 61878e26-594e-4b77-8508-b489b4cdd7ad)
-    (property "Reference" "#PWR0115" (at 198.755 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 198.755 87.8926 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 198.755 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 198.755 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 82ebe0d2-2757-434b-b53f-7e7a8710cd1c))
-    (instances
-      (project "TFUSBSERIAL01A"
-        (path "/2bba972d-fb08-481b-94d3-048811539baf"
-          (reference "#PWR0115") (unit 1)
         )
       )
     )
@@ -2412,7 +2536,7 @@
     )
     (pin "1" (uuid 0a902977-310e-4218-bde4-3e6d107ef82f))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "#PWR0105") (unit 1)
         )
@@ -2436,7 +2560,7 @@
       (effects (font (size 1.524 1.524)))
     )
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "M4") (unit 1)
         )
@@ -2459,13 +2583,13 @@
     (property "Datasheet" "~" (at 273.05 51.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UST_ID" "5c70984412875079b91f8895" (at 273.05 51.435 0)
+    (property "UST_ID" "60d582331287500165f859d0" (at 273.05 51.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2d0d84e9-67e2-4f9b-bfda-6e61977f2e5d))
     (pin "2" (uuid ff450f4d-5b5c-4f16-822e-9e79cae3d040))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "D3") (unit 1)
         )
@@ -2494,7 +2618,7 @@
     (pin "1" (uuid 0ebd7694-ebf1-45c1-ac53-52acaab36d29))
     (pin "2" (uuid 77f3c16a-0cf4-4aeb-9655-0f8ce793a8b0))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "C2") (unit 1)
         )
@@ -2502,30 +2626,59 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 80.645 71.12 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 88.265 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 851230d7-1bf4-4256-81a4-a4f9cc4bb316)
-    (property "Reference" "C1" (at 83.5661 69.9706 0)
+    (property "Reference" "C1" (at 91.1861 69.9706 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10nF" (at 83.566 72.269 0)
+    (property "Value" "10nF" (at 91.186 72.269 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 81.6102 74.93 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 89.2302 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 80.645 71.12 0)
+    (property "Datasheet" "~" (at 88.265 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UST_ID" "5c70984712875079b91f8b49" (at 80.645 71.12 0)
+    (property "UST_ID" "5c70984712875079b91f8b49" (at 88.265 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f08ba4c9-3b61-4094-8cdd-fea86e018da0))
     (pin "2" (uuid 777f0bcd-d87c-4740-a4f5-7ae474bcacfd))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "C1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 165.735 99.06 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 89e6c524-66ac-401f-a968-399172ac06f1)
+    (property "Reference" "R10" (at 162.56 97.79 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100R" (at 168.275 99.06 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 165.735 100.838 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 165.735 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "UST_ID" "" (at 165.735 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5d317ba0-05ad-49e9-9f21-58e80f96912e))
+    (pin "2" (uuid 8066cdc4-dd60-4f6f-9d90-786cb3722044))
+    (instances
+      (project "TFUSBSERIAL01"
+        (path "/2bba972d-fb08-481b-94d3-048811539baf"
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -2548,7 +2701,7 @@
     )
     (pin "1" (uuid 21c0bba2-3861-4809-9f2c-15161c831924))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "#PWR0101") (unit 1)
         )
@@ -2573,7 +2726,7 @@
     )
     (pin "1" (uuid f9087188-12a2-4baf-9f1e-44f868907f53))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "#PWR0110") (unit 1)
         )
@@ -2581,24 +2734,53 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 80.645 76.2 0) (unit 1)
+  (symbol (lib_id "Device:R") (at 165.735 93.98 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9d4735bb-65d4-4a9e-a4a4-9a4bae63fa2f)
+    (property "Reference" "R8" (at 161.29 92.71 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100R" (at 168.275 93.98 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 165.735 95.758 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 165.735 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "UST_ID" "" (at 165.735 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f67df936-434f-43f0-8a5f-955c3ba07b13))
+    (pin "2" (uuid df75a592-3d58-4952-b178-0cf9e638f44a))
+    (instances
+      (project "TFUSBSERIAL01"
+        (path "/2bba972d-fb08-481b-94d3-048811539baf"
+          (reference "R8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 88.265 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9e72f44a-616a-4646-9514-938a448ca6ba)
-    (property "Reference" "#PWR0112" (at 80.645 82.55 0)
+    (property "Reference" "#PWR0112" (at 88.265 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 80.7593 80.5244 0)
+    (property "Value" "GND" (at 88.3793 80.5244 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 80.645 76.2 0)
+    (property "Footprint" "" (at 88.265 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 80.645 76.2 0)
+    (property "Datasheet" "" (at 88.265 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 519e1310-9bba-4184-84fb-e6d4b8bf8b5d))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "#PWR0112") (unit 1)
         )
@@ -2627,7 +2809,7 @@
     (pin "1" (uuid 23b53769-5c6c-4989-9162-93f7db206a1a))
     (pin "2" (uuid 49df9795-ce10-4cd1-9c7e-fbcf1134b9fd))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "C4") (unit 1)
         )
@@ -2635,19 +2817,19 @@
     )
   )
 
-  (symbol (lib_id "MLAB_CONNECTORS_JST:SM06B-GHS-TB") (at 245.745 104.14 0) (unit 1)
+  (symbol (lib_id "MLAB_CONNECTORS_JST:SM06B-GHS-TB") (at 254.635 132.715 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a41d7837-99e9-4441-8057-72811cf70c31)
-    (property "Reference" "J3" (at 247.6501 103.2524 0)
+    (property "Reference" "J3" (at 256.5401 131.8274 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Value" "SM06B-GHS-TB" (at 247.6501 105.96 0)
+    (property "Value" "SM06B-GHS-TB" (at 256.5401 134.535 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal" (at 245.745 96.52 0)
+    (property "Footprint" "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal" (at 254.635 125.095 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 245.745 96.52 0)
+    (property "Datasheet" "" (at 254.635 125.095 0)
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid 3f89f926-6af8-4fdf-be2a-a5c2af7fe99b))
@@ -2658,9 +2840,34 @@
     (pin "6" (uuid 4faa64a4-343f-44c9-9808-21f2cb08711c))
     (pin "MP" (uuid b5450fb9-7791-4fc1-be84-23b4c78ce6fb))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "J3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 172.72 104.14 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a5893a44-acd1-43c1-a371-3072fcfe9c5b)
+    (property "Reference" "TP1" (at 177.419 103.116 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "#DTR" (at 169.545 102.87 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 172.72 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 172.72 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7c48bbf1-3d45-4775-bdf7-b83ba651a8d3))
+    (instances
+      (project "TFUSBSERIAL01"
+        (path "/2bba972d-fb08-481b-94d3-048811539baf"
+          (reference "TP1") (unit 1)
         )
       )
     )
@@ -2682,7 +2889,7 @@
       (effects (font (size 1.524 1.524)))
     )
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "M6") (unit 1)
         )
@@ -2706,7 +2913,7 @@
       (effects (font (size 1.524 1.524)))
     )
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "M2") (unit 1)
         )
@@ -2714,28 +2921,57 @@
     )
   )
 
-  (symbol (lib_id "Device:FerriteBead_Small") (at 88.265 66.04 90) (unit 1)
+  (symbol (lib_id "Device:R") (at 165.735 101.6 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid bc662a9d-5c9e-4fc3-8360-eac24d55d087)
+    (property "Reference" "R11" (at 162.56 100.33 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100R" (at 168.275 101.6 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 165.735 103.378 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 165.735 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "UST_ID" "" (at 165.735 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 272c6a76-16b2-4f36-aa39-79de4fc249dc))
+    (pin "2" (uuid fe23cf3d-9822-4305-87aa-729225ec26ac))
+    (instances
+      (project "TFUSBSERIAL01"
+        (path "/2bba972d-fb08-481b-94d3-048811539baf"
+          (reference "R11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:FerriteBead_Small") (at 95.885 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd05236a-e7ee-4d63-bd6f-d0fe2da5ccdd)
-    (property "Reference" "FB1" (at 88.265 60.128 90)
+    (property "Reference" "FB1" (at 95.885 60.128 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "BLM21PG300SN1D" (at 88.265 62.4267 90)
+    (property "Value" "BLM21PG300SN1D" (at 95.885 62.4267 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (at 88.265 67.818 90)
+    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (at 95.885 67.818 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 88.265 66.04 0)
+    (property "Datasheet" "~" (at 95.885 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UST_ID" "5c70984412875079b91f87fd" (at 88.265 66.04 0)
+    (property "UST_ID" "5c70984412875079b91f87fd" (at 95.885 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 66d0a1a2-9789-460a-be8e-c7d974bde2d2))
     (pin "2" (uuid aa00be64-3438-472e-bf4c-214db3dcbf06))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "FB1") (unit 1)
         )
@@ -2764,7 +3000,7 @@
     (pin "1" (uuid c5f2e69c-f8ef-47b5-82d0-65461d7372fe))
     (pin "2" (uuid dc5f0f54-b3c6-4f10-814d-64ce499a8be4))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "R3") (unit 1)
         )
@@ -2789,7 +3025,7 @@
     )
     (pin "1" (uuid ee402862-925c-455b-a7e7-16bf2c38146b))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "#PWR0111") (unit 1)
         )
@@ -2837,9 +3073,34 @@
     (pin "8" (uuid 5a3efaa1-887e-4f9a-8d58-da4a2b0ee645))
     (pin "9" (uuid ad33d0ce-2ca1-4886-aed9-ca8e5cfc9ce9))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "U2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 172.72 106.68 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d6700dc6-0b34-43aa-ba0e-360a2e5aa5b9)
+    (property "Reference" "TP2" (at 177.419 105.656 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "#DSR" (at 169.545 105.41 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 172.72 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 172.72 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3cca0b7b-7223-4eb2-ac0f-fe038b6a9287))
+    (instances
+      (project "TFUSBSERIAL01"
+        (path "/2bba972d-fb08-481b-94d3-048811539baf"
+          (reference "TP2") (unit 1)
         )
       )
     )
@@ -2862,7 +3123,7 @@
     )
     (pin "1" (uuid 5be5fe47-1ba5-46ac-9d19-2ffee2b4efcd))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "#PWR0102") (unit 1)
         )
@@ -2885,13 +3146,13 @@
     (property "Datasheet" "~" (at 260.35 51.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UST_ID" "5c70984412875079b91f8896" (at 260.35 51.435 0)
+    (property "UST_ID" "60d581db1287500165f859a2" (at 260.35 51.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 764d1688-795f-4ac6-8417-0d37f7668ea6))
     (pin "2" (uuid 752b1acf-6afd-488d-9f0e-99383baefb5b))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "D2") (unit 1)
         )
@@ -2915,7 +3176,7 @@
       (effects (font (size 1.524 1.524)))
     )
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "M5") (unit 1)
         )
@@ -2923,25 +3184,25 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 119.38 66.04 180) (unit 1)
+  (symbol (lib_id "Device:D") (at 247.65 116.205 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc86e020-9c29-462c-9c57-020d6b8848c5)
-    (property "Reference" "D1" (at 119.38 61.3368 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "D1" (at 249.682 115.181 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "15MQ040N" (at 119.38 63.6355 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "15MQ040N" (at 249.682 117.229 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_SMD:D_SMA" (at 119.38 66.04 0)
+    (property "Footprint" "Diode_SMD:D_SMA" (at 247.65 116.205 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 119.38 66.04 0)
+    (property "Datasheet" "~" (at 247.65 116.205 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c92e5325-bdec-4e90-88d1-55cc07152806))
     (pin "2" (uuid 3c23b180-5915-4f47-879e-6a8772a25b9e))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "D1") (unit 1)
         )
@@ -2966,7 +3227,7 @@
     )
     (pin "1" (uuid 541c4b8a-3eef-4d8d-8228-bdba5e468fb1))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "#PWR0116") (unit 1)
         )
@@ -2991,7 +3252,7 @@
     )
     (pin "1" (uuid 32153971-9bbe-4e12-8fb6-2fe59d402325))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "#PWR0113") (unit 1)
         )
@@ -3024,7 +3285,7 @@
     (pin "5" (uuid f25f63dc-d0bf-4200-a893-db61c56c89cf))
     (pin "6" (uuid be33d016-1a2b-4415-994b-f87369372af4))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "U1") (unit 1)
         )
@@ -3032,24 +3293,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 199.39 113.665 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 208.28 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ebb34076-6b9c-47e0-a816-ac650cdbfbe3)
-    (property "Reference" "#PWR0114" (at 199.39 120.015 0)
+    (property "Reference" "#PWR0114" (at 208.28 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 199.517 118.0592 0)
+    (property "Value" "GND" (at 208.407 146.6342 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 199.39 113.665 0)
+    (property "Footprint" "" (at 208.28 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 199.39 113.665 0)
+    (property "Datasheet" "" (at 208.28 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 48233eb2-63f7-429f-828f-ff85a75aadfc))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "#PWR0114") (unit 1)
         )
@@ -3057,25 +3318,25 @@
     )
   )
 
-  (symbol (lib_id "Device:Fuse") (at 71.755 66.04 90) (unit 1)
+  (symbol (lib_id "Device:Fuse") (at 247.65 104.775 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2bc9ea7-47cd-49fa-993d-61fb138aef0f)
-    (property "Reference" "F1" (at 71.755 61.698 90)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "F1" (at 249.174 103.751 0)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "750mA" (at 71.755 63.746 90)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "350mA" (at 249.174 105.799 0)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Mlab_F:1812" (at 71.755 67.818 90)
+    (property "Footprint" "Mlab_F:1812" (at 249.428 104.775 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 71.755 66.04 0)
+    (property "Datasheet" "~" (at 247.65 104.775 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a2f80beb-12bf-4159-a90c-c3b1f2f414e9))
     (pin "2" (uuid 9bdc55ca-f2a0-4e36-8eb2-932c8e32b979))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "F1") (unit 1)
         )
@@ -3100,7 +3361,7 @@
     )
     (pin "1" (uuid f1a578f5-9185-4a53-b8f3-09b38318ae76))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "#PWR0107") (unit 1)
         )
@@ -3108,28 +3369,28 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 99.695 71.12 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 107.315 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4d4d3d5-7247-4164-b6b8-77805d7e3d3f)
-    (property "Reference" "C3" (at 102.6161 69.9706 0)
+    (property "Reference" "C3" (at 110.2361 69.9706 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10uF" (at 102.616 72.269 0)
+    (property "Value" "10uF" (at 110.236 72.269 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 100.6602 74.93 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 108.2802 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 99.695 71.12 0)
+    (property "Datasheet" "~" (at 107.315 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UST_ID" "5c70984812875079b91f8bbd" (at 99.695 71.12 0)
+    (property "UST_ID" "5c70984812875079b91f8bbd" (at 107.315 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a5aea0f7-bba1-4d22-9d17-c855e25f5326))
     (pin "2" (uuid f46a050c-7547-4831-833e-e53aa707b4c3))
     (instances
-      (project "TFUSBSERIAL01A"
+      (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
           (reference "C3") (unit 1)
         )

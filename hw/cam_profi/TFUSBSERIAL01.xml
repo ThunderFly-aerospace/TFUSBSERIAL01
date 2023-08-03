@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFUSBSERIAL01.kicad_sch</source>
-    <date>Thu Aug  3 13:14:08 2023</date>
+    <date>Thu Aug  3 13:56:20 2023</date>
     <tool>Eeschema 7.0.5.1-1-g8f565ef7f0-dirty-deb11</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -157,14 +157,13 @@
     </comp>
     <comp ref="F1">
       <value>350mA</value>
-      <footprint>Mlab_F:1812</footprint>
-      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
-      <property name="ki_description" value="Fuse"/>
-      <property name="ki_keywords" value="fuse"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>f2bc9ea7-47cd-49fa-993d-61fb138aef0f</tstamps>
+      <tstamps>4f8057e6-50d7-4ffe-afa7-d9d300e9f96c</tstamps>
     </comp>
     <comp ref="FB1">
       <value>BLM21PG300SN1D</value>
@@ -565,22 +564,6 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="Fuse">
-      <description>Fuse</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>*Fuse*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">F</field>
-        <field name="Value">Fuse</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Device" part="LED">
       <description>Light emitting diode</description>
       <docs>~</docs>
@@ -597,6 +580,23 @@
       <pins>
         <pin num="1" name="K" type="passive"/>
         <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="R">
@@ -747,7 +747,7 @@
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
       <node ref="FB1" pin="2" pintype="passive"/>
       <node ref="U2" pin="12" pinfunction="VCC" pintype="power_in"/>
     </net>
@@ -832,7 +832,7 @@
     </net>
     <net code="14" name="Net-(D1-A)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
       <node ref="J2" pin="1" pintype="input"/>
     </net>
     <net code="15" name="Net-(D1-K)">

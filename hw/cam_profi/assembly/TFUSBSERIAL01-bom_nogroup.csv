@@ -5,7 +5,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 4,Diode,D,D1,15MQ040N,D_SMA,1,~,
 5,Light emitting diode,LED,D3D4,GREEN,LED_0603_1608Metric,2,~,60d582331287500165f859d0
 6,Light emitting diode,LED,D2,RED,LED_0603_1608Metric,1,~,60d581db1287500165f859a2
-7,Fuse,Fuse,F1,350mA,1812,1,~,
+7,"Resettable fuse, polymeric positive temperature coefficient",Polyfuse,F1,350mA,,1,~,
 8,"Ferrite bead, small symbol",FerriteBead_Small,FB1,BLM21PG300SN1D,L_0805_2012Metric,1,~,5c70984412875079b91f87fd
 9,1x07 2.54 mm pitch header,SM06B-GHS-TB,J2J3,SM06B-GHS-TB,JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal,2,,
 10,USB 2.0-only Type-C Receptacle connector,USBC_USB4105-GF-A,J1,USBC_USB4105-GF-A,USBC GCT_USB4105-GF-A,1,,5fa0f94612875025b397795e

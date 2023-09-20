@@ -2,19 +2,19 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFUSBSERIAL01.kicad_sch</source>
-    <date>Thu Aug  3 13:56:20 2023</date>
-    <tool>Eeschema 7.0.5.1-1-g8f565ef7f0-dirty-deb11</tool>
+    <date>Wed Sep 20 23:28:44 2023</date>
+    <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>NAME</title>
-        <company>Mlab www.mlab.cz</company>
-        <rev>REV</rev>
+        <title>TFUSBSERIAL01A</title>
+        <company>www.thunderfly.cz</company>
+        <rev/>
         <date>%F</date>
         <source>TFUSBSERIAL01.kicad_sch</source>
-        <comment number="1" value="VERSION"/>
-        <comment number="2" value="Short description \nTwo lines are maximum"/>
-        <comment number="3" value="nickname &lt;email@example.com&gt;"/>
-        <comment number="4" value="BSD"/>
+        <comment number="1" value="Pixhawk compatibile "/>
+        <comment number="2" value="USB-UART converter"/>
+        <comment number="3" value="&lt;info@thunderfly.cz&gt;"/>
+        <comment number="4" value=""/>
         <comment number="5" value=""/>
         <comment number="6" value=""/>
         <comment number="7" value=""/>
@@ -157,6 +157,7 @@
     </comp>
     <comp ref="F1">
       <value>350mA</value>
+      <footprint>Fuse:Fuse_0805_2012Metric</footprint>
       <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
@@ -179,6 +180,28 @@
       <property name="ki_keywords" value="L ferrite bead inductor filter"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>bd05236a-e7ee-4d63-bd6f-d0fe2da5ccdd</tstamps>
+    </comp>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="Fiducial Marker"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71860558-3039-44ba-9c7c-276cde302230</tstamps>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="ki_description" value="Fiducial Marker"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed901f9f-264f-4e79-8415-3b9248a34dd4</tstamps>
     </comp>
     <comp ref="J1">
       <value>USBC_USB4105-GF-A</value>
@@ -423,6 +446,7 @@
     </comp>
     <comp ref="TP1">
       <value>#DTR</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
@@ -433,6 +457,7 @@
     </comp>
     <comp ref="TP2">
       <value>#DSR</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
@@ -443,6 +468,7 @@
     </comp>
     <comp ref="TP3">
       <value>#DCD</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
@@ -453,6 +479,7 @@
     </comp>
     <comp ref="TP4">
       <value>#RI</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
@@ -704,6 +731,18 @@
         <field name="Footprint">Mlab_Mechanical:dira_3mm</field>
       </fields>
     </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
     <libpart lib="Power_Protection" part="USBLC6-2SC6">
       <description>Very low capacitance ESD protection diode, 2 data-line, SOT-23-6</description>
       <docs>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</docs>
@@ -735,6 +774,9 @@
     </library>
     <library logical="Interface_USB">
       <uri>/usr/share/kicad/symbols//Interface_USB.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
     </library>
     <library logical="Power_Protection">
       <uri>/usr/share/kicad/symbols//Power_Protection.kicad_sym</uri>
@@ -810,7 +852,7 @@
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
-      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
       <node ref="J1" pin="A1/B12" pinfunction="GND" pintype="passive"/>
       <node ref="J1" pin="B1/A12" pinfunction="GND" pintype="passive"/>
       <node ref="J1" pin="G1" pinfunction="SHIELD" pintype="passive"/>
@@ -861,7 +903,7 @@
     </net>
     <net code="21" name="Net-(U2-3V3OUT)">
       <node ref="C2" pin="1" pintype="passive"/>
-      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
       <node ref="U2" pin="10" pinfunction="3V3OUT" pintype="power_out"/>
       <node ref="U2" pin="20" pinfunction="VCCIO" pintype="power_in"/>
     </net>

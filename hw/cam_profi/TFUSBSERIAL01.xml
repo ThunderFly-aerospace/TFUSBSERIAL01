@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFUSBSERIAL01.kicad_sch</source>
-    <date>Wed Sep 20 23:33:29 2023</date>
+    <date>Wed Sep 20 23:39:55 2023</date>
     <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -102,7 +102,11 @@
     <comp ref="D1">
       <value>15MQ040N</value>
       <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f88b0</field>
+      </fields>
       <libsource lib="Device" part="D" description="Diode"/>
+      <property name="UST_ID" value="5c70984512875079b91f88b0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="Diode"/>
@@ -158,7 +162,11 @@
     <comp ref="F1">
       <value>350mA</value>
       <footprint>Fuse:Fuse_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">650b8191462c6d9e7205477b</field>
+      </fields>
       <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="UST_ID" value="650b8191462c6d9e7205477b"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
@@ -221,7 +229,11 @@
     <comp ref="J2">
       <value>SM06B-GHS-TB</value>
       <footprint>Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal</footprint>
+      <fields>
+        <field name="UST_ID">5fa0f70212875025b3977932</field>
+      </fields>
       <libsource lib="MLAB_CONNECTORS_JST" part="SM06B-GHS-TB" description="1x07 2.54 mm pitch header"/>
+      <property name="UST_ID" value="5fa0f70212875025b3977932"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="1x07 2.54 mm pitch header"/>
@@ -232,7 +244,11 @@
     <comp ref="J3">
       <value>SM06B-GHS-TB</value>
       <footprint>Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal</footprint>
+      <fields>
+        <field name="UST_ID">5fa0f70212875025b3977932</field>
+      </fields>
       <libsource lib="MLAB_CONNECTORS_JST" part="SM06B-GHS-TB" description="1x07 2.54 mm pitch header"/>
+      <property name="UST_ID" value="5fa0f70212875025b3977932"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="1x07 2.54 mm pitch header"/>
@@ -399,8 +415,11 @@
     <comp ref="R8">
       <value>100R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8956</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8956"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -411,8 +430,11 @@
     <comp ref="R9">
       <value>100R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8956</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8956"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -423,8 +445,11 @@
     <comp ref="R10">
       <value>100R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8956</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8956"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -435,8 +460,11 @@
     <comp ref="R11">
       <value>100R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8956</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8956"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>

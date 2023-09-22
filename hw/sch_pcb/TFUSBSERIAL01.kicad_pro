@@ -56,7 +56,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "solder_mask_bridge|142771200|103217000|f5e96b50-9f17-412d-87c3-95df840f931d|b3cb3012-5ccb-4bf6-ac65-d8d0d1de2553",
+        "solder_mask_bridge|142771200|97417000|f5ab52dc-fb85-4ee3-a1d0-cf410c39ff36|5794c3ff-762e-47c6-a18a-0ffaf4a40441"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -94,7 +97,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "error",
+        "silk_over_copper": "ignore",
         "silk_overlap": "error",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",

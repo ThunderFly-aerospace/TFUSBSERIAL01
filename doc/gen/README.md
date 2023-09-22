@@ -11,25 +11,25 @@ Board size: 30.0x30.0 mm (1.18x1.18 inches)
 
 Solder mask: TOP / BOTTOM
 
-- Color: Green
+- Color: Yellow
 
 Silk screen: TOP / BOTTOM
 
-- Color: White
+- Color: Black
 
 
 Stackup:
 
 | Name                 | Type                 | Color            | Thickness | Material        | Epsilon_r | Loss tangent |
 |----------------------|----------------------|------------------|-----------|-----------------|-----------|--------------|
-| F.SilkS              | Top Silk Screen      |                  |           |                 |           |              |
-| F.Mask               | Top Solder Mask      | Green            |        10 |                 |           |              |
+| F.SilkS              | Top Silk Screen      | Black            |           |                 |           |              |
+| F.Mask               | Top Solder Mask      | Yellow           |        10 |                 |           |              |
 | F.Cu                 | copper               |                  |        35 |                 |           |              |
 | dielectric 1         | core                 |                  |      1510 | FR4             |       4.5 |        0.020 |
 | B.Cu                 | copper               |                  |        35 |                 |           |              |
-| B.Mask               | Bottom Solder Mask   | Green            |        10 |                 |           |              |
+| B.Mask               | Bottom Solder Mask   | Yellow           |        10 |                 |           |              |
 | B.Paste              | Bottom Solder Paste  |                  |           |                 |           |              |
-| B.SilkS              | Bottom Silk Screen   |                  |           |                 |           |              |
+| B.SilkS              | Bottom Silk Screen   | Black            |           |                 |           |              |
 
 # Important sizes
 
@@ -65,7 +65,7 @@ Eurocircuits class: 4B
 Components count: (SMD/THT)
 
 - Top: 0/6 (THT)
-- Bottom: 28/1 (SMD + THT)
+- Bottom: 29/0 (SMD)
 
 Defined tracks:
 
@@ -79,8 +79,9 @@ Defined tracks:
 
 Used tracks:
 
-- 0.2 mm (8 mils) (9) defined: yes
-- 0.3 mm (12 mils) (130) defined: yes
+- 0.2 mm (8 mils) (4) defined: yes
+- 0.25 mm (10 mils) (3) defined: no
+- 0.3 mm (12 mils) (128) defined: yes
 - 0.4 mm (16 mils) (31) defined: yes
 - 0.5 mm (20 mils) (4) defined: yes
 

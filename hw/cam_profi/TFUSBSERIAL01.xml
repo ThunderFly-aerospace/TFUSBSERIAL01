@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFUSBSERIAL01.kicad_sch</source>
-    <date>Thu Sep 21 05:22:56 2023</date>
+    <date>Fri Sep 22 14:51:27 2023</date>
     <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -28,10 +28,10 @@
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984712875079b91f8b49</field>
+        <field name="UST_ID">5c70984812875079b91f8bef</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5c70984712875079b91f8b49"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bef"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -43,10 +43,10 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984712875079b91f8b4c</field>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -58,10 +58,10 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bbd</field>
+        <field name="UST_ID">5c70984812875079b91f8bf5</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bbd"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf5"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -73,10 +73,10 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984712875079b91f8b4c</field>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -88,10 +88,10 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984712875079b91f8b4c</field>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -191,7 +191,7 @@
     </comp>
     <comp ref="FID1">
       <value>Fiducial</value>
-      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
       <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
@@ -202,7 +202,7 @@
     </comp>
     <comp ref="FID2">
       <value>Fiducial</value>
-      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
       <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
@@ -320,10 +320,10 @@
       <value>5k1</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID">5fa0fc3e12875025b3977997</field>
+        <field name="UST_ID">628d1404dc56076e9a223650</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value="5fa0fc3e12875025b3977997"/>
+      <property name="UST_ID" value="628d1404dc56076e9a223650"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -335,10 +335,10 @@
       <value>5k1</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID">5fa0fc3e12875025b3977997</field>
+        <field name="UST_ID">628d1404dc56076e9a223650</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value="5fa0fc3e12875025b3977997"/>
+      <property name="UST_ID" value="628d1404dc56076e9a223650"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -350,10 +350,10 @@
       <value>4k7</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984612875079b91f8995</field>
+        <field name="UST_ID">5c70984512875079b91f8960</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value="5c70984612875079b91f8995"/>
+      <property name="UST_ID" value="5c70984512875079b91f8960"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -365,10 +365,10 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984612875079b91f899f</field>
+        <field name="UST_ID">5c70984512875079b91f8962</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value="5c70984612875079b91f899f"/>
+      <property name="UST_ID" value="5c70984512875079b91f8962"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -377,10 +377,13 @@
       <tstamps>06591464-f933-4dc0-bd36-dc54d1421a6c</tstamps>
     </comp>
     <comp ref="R5">
-      <value>290R</value>
+      <value>287R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8969</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8969"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -389,10 +392,13 @@
       <tstamps>17973f09-f013-4b5d-a43c-b4f47ae6b168</tstamps>
     </comp>
     <comp ref="R6">
-      <value>140R</value>
+      <value>130R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5cd08b17128750448e4542b1</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5cd08b17128750448e4542b1"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -401,10 +407,13 @@
       <tstamps>0ff0f9a0-36c9-401d-bb1d-7c25306516a5</tstamps>
     </comp>
     <comp ref="R7">
-      <value>140R</value>
+      <value>130R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5cd08b17128750448e4542b1</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5cd08b17128750448e4542b1"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>

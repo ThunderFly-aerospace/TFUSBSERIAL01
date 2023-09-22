@@ -1,7 +1,7 @@
 Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,ust_id
-1,Unpolarized capacitor,C,C1,10nF,C_0603_1608Metric,1,~,5c70984712875079b91f8b49
-2,Unpolarized capacitor,C,C2C4C5,100nF,C_0603_1608Metric,3,~,5c70984712875079b91f8b4c
-3,Unpolarized capacitor,C,C3,10uF,C_0603_1608Metric,1,~,5c70984812875079b91f8bbd
+1,Unpolarized capacitor,C,C1,10nF,C_0603_1608Metric,1,~,5c70984812875079b91f8bef
+2,Unpolarized capacitor,C,C2C4C5,100nF,C_0603_1608Metric,3,~,5c70984812875079b91f8bf2
+3,Unpolarized capacitor,C,C3,10uF,C_0603_1608Metric,1,~,5c70984812875079b91f8bf5
 4,Diode,D,D1,15MQ040N,D_SMA,1,~,5c70984512875079b91f88b0
 5,Light emitting diode,LED,D3D4,GREEN,LED_0603_1608Metric,2,~,60d582331287500165f859d0
 6,Light emitting diode,LED,D2,RED,LED_0603_1608Metric,1,~,60d581db1287500165f859a2
@@ -11,10 +11,10 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 10,USB 2.0-only Type-C Receptacle connector,USBC_USB4105-GF-A,J1,USBC_USB4105-GF-A,USBC GCT_USB4105-GF-A,1,,5fa0f94612875025b397795e
 11,,HOLE_TF,M1M2M3M4M5M6,HOLE_TF,dira_3mm,6,,
 12,Resistor,R,R8R9R10R11,100R,R_0603_1608Metric,4,~,5c70984512875079b91f8956
-13,Resistor,R,R6R7,140R,R_0603_1608Metric,2,~,
-14,Resistor,R,R5,290R,R_0603_1608Metric,1,~,
-15,Resistor,R,R3,4k7,R_0603_1608Metric,1,~,5c70984612875079b91f8995
-16,Resistor,R,R1R2,5k1,R_0603_1608Metric,2,~,5fa0fc3e12875025b3977997
-17,Resistor,R,R4,10k,R_0603_1608Metric,1,~,5c70984612875079b91f899f
+13,Resistor,R,R6R7,130R,R_0603_1608Metric,2,~,5cd08b17128750448e4542b1
+14,Resistor,R,R5,287R,R_0603_1608Metric,1,~,5c70984512875079b91f8969
+15,Resistor,R,R3,4k7,R_0603_1608Metric,1,~,5c70984512875079b91f8960
+16,Resistor,R,R1R2,5k1,R_0603_1608Metric,2,~,628d1404dc56076e9a223650
+17,Resistor,R,R4,10k,R_0603_1608Metric,1,~,5c70984512875079b91f8962
 18,"Full Speed USB to Full Handshake UART, QFN-20",FT231XQ,U2,FT231XQ,QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm,1,https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf,605d7fe0128750769e769adb
 19,"Very low capacitance ESD protection diode, 2 data-line, SOT-23-6",USBLC6-2SC6,U1,USBLC6-2SC6,SOT-23-6,1,https://www.st.com/resource/en/datasheet/usblc6-2.pdf,5e82e0691287502a334a778c

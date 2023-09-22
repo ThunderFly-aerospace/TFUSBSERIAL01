@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "7.0.7-7.0.7~ubuntu23.04.1"
     },
-    "CreationDate": "2023-09-21T05:22:11+00:00"
+    "CreationDate": "2023-09-22T14:50:37+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.0,
-      "PadToTrack": 0.0,
+      "PadToPad": 0.001,
+      "PadToTrack": 0.001,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.2,
       "TrackToRegion": 0.2,
@@ -77,11 +77,12 @@
   "MaterialStackup": [
     {
       "Type": "Legend",
+      "Color": "Black",
       "Name": "Top Silk Screen"
     },
     {
       "Type": "SolderMask",
-      "Color": "Green",
+      "Color": "Yellow",
       "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
@@ -104,7 +105,7 @@
     },
     {
       "Type": "SolderMask",
-      "Color": "Green",
+      "Color": "Yellow",
       "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
@@ -114,6 +115,7 @@
     },
     {
       "Type": "Legend",
+      "Color": "Black",
       "Name": "Bottom Silk Screen"
     }
   ]

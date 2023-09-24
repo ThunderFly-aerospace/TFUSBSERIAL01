@@ -4,7 +4,7 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "C3","10uF","C_0603_1608Metric",144.8000,-107.0750,90.0000,bottom
 "C4","100nF","C_0603_1608Metric",153.3000,-96.3250,90.0000,bottom
 "C5","100nF","C_0603_1608Metric",155.3000,-105.1000,-90.0000,bottom
-"D1","15MQ040N","D_SMA",161.6000,-100.3000,0.0000,bottom
+"D1","SRL23","D_SOD-323_HandSoldering",161.6000,-100.3000,0.0000,bottom
 "D2","RED","LED_0603_1608Metric",143.5940,-88.3170,90.0000,bottom
 "D3","GREEN","LED_0603_1608Metric",140.5940,-88.3170,90.0000,bottom
 "D4","GREEN","LED_0603_1608Metric",140.6000,-112.0000,90.0000,bottom

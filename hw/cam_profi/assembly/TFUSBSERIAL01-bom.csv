@@ -2,9 +2,9 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 1,Unpolarized capacitor,C,C1,10nF,C_0603_1608Metric,1,~,5c70984812875079b91f8bef
 2,Unpolarized capacitor,C,C2C4C5,100nF,C_0603_1608Metric,3,~,5c70984812875079b91f8bf2
 3,Unpolarized capacitor,C,C3,10uF,C_0603_1608Metric,1,~,5c70984812875079b91f8bf5
-4,Diode,D,D1,15MQ040N,D_SMA,1,~,5c70984512875079b91f88b0
-5,Light emitting diode,LED,D3D4,GREEN,LED_0603_1608Metric,2,~,60d582331287500165f859d0
-6,Light emitting diode,LED,D2,RED,LED_0603_1608Metric,1,~,60d581db1287500165f859a2
+4,Light emitting diode,LED,D3D4,GREEN,LED_0603_1608Metric,2,~,60d582331287500165f859d0
+5,Light emitting diode,LED,D2,RED,LED_0603_1608Metric,1,~,60d581db1287500165f859a2
+6,Diode,D,D1,SRL23,D_SOD-323_HandSoldering,1,~,651003fd462c6d9e72054b2f
 7,"Resettable fuse, polymeric positive temperature coefficient",Polyfuse,F1,350mA,Fuse_0805_2012Metric,1,~,650b8191462c6d9e7205477b
 8,"Ferrite bead, small symbol",FerriteBead_Small,FB1,BLM21PG300SN1D,L_0805_2012Metric,1,~,5c70984412875079b91f87fd
 9,1x07 2.54 mm pitch header,SM06B-GHS-TB,J2J3,SM06B-GHS-TB,JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal,2,,5fa0f70212875025b3977932

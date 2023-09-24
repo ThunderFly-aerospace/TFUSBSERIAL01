@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFUSBSERIAL01.kicad_sch</source>
-    <date>Sat Sep 23 01:07:58 2023</date>
+    <date>Sun Sep 24 09:44:31 2023</date>
     <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -100,13 +100,13 @@
       <tstamps>10c2fca5-8a35-48c6-971e-42d1aa437895</tstamps>
     </comp>
     <comp ref="D1">
-      <value>15MQ040N</value>
-      <footprint>Diode_SMD:D_SMA</footprint>
+      <value>SRL23</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f88b0</field>
+        <field name="UST_ID">651003fd462c6d9e72054b2f</field>
       </fields>
       <libsource lib="Device" part="D" description="Diode"/>
-      <property name="UST_ID" value="5c70984512875079b91f88b0"/>
+      <property name="UST_ID" value="651003fd462c6d9e72054b2f"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
       <property name="ki_description" value="Diode"/>

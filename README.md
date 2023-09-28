@@ -2,6 +2,14 @@
 
 The converter is designed to service operations on UAVs. It respects the [Pixhawk DS-009](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-009%20Pixhawk%20Connector%20Standard.pdf) connector standard.
 
+
+![TFUSBSERIAL01 Bottom](doc/gen/img/TFUSBSERIAL01-bottom.png)
+
+
+![TFUSBSERIAL01 Top](doc/gen/img/TFUSBSERIAL01-top.png)
+
+
+
 ## Key features
  
   * Could be connected to both peripheral or FMUs

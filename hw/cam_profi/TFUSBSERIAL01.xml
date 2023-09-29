@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFUSBSERIAL01.kicad_sch</source>
-    <date>Sun Sep 24 12:12:17 2023</date>
+    <date>Fri Sep 29 08:59:37 2023</date>
     <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -102,6 +102,7 @@
     <comp ref="D1">
       <value>SRL23</value>
       <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.tme.eu/Document/039d7772a3e1de850ecf12d397e62c7b/srl23.pdf</datasheet>
       <fields>
         <field name="UST_ID">651003fd462c6d9e72054b2f</field>
       </fields>
@@ -203,9 +204,14 @@
     <comp ref="FID2">
       <value>Fiducial</value>
       <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <fields>
+        <field name="Sim.Enable">0</field>
+      </fields>
       <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sim.Enable" value="0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_description" value="Fiducial Marker"/>
       <property name="ki_keywords" value="fiducial marker"/>
       <sheetpath names="/" tstamps="/"/>
@@ -259,9 +265,14 @@
     <comp ref="M1">
       <value>HOLE_TF</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <fields>
+        <field name="Sim.Enable">0</field>
+      </fields>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
+      <property name="Sim.Enable" value="0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>07150fcc-da73-41e8-b5bc-83b21169905a</tstamps>
@@ -269,9 +280,14 @@
     <comp ref="M2">
       <value>HOLE_TF</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <fields>
+        <field name="Sim.Enable">0</field>
+      </fields>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
+      <property name="Sim.Enable" value="0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b96fd542-3f19-4d43-96de-688022c1a9e1</tstamps>
@@ -279,9 +295,14 @@
     <comp ref="M3">
       <value>HOLE_TF</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <fields>
+        <field name="Sim.Enable">0</field>
+      </fields>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
+      <property name="Sim.Enable" value="0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3b04b616-4d75-42e2-90fd-a67aacee2528</tstamps>
@@ -289,9 +310,14 @@
     <comp ref="M4">
       <value>HOLE_TF</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <fields>
+        <field name="Sim.Enable">0</field>
+      </fields>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
+      <property name="Sim.Enable" value="0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>74f42d80-c53a-4cd1-81c3-1ca032ef4173</tstamps>
@@ -299,9 +325,14 @@
     <comp ref="M5">
       <value>HOLE_TF</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <fields>
+        <field name="Sim.Enable">0</field>
+      </fields>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
+      <property name="Sim.Enable" value="0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>daf55a08-03f8-4aac-ab5b-3c300be303fe</tstamps>
@@ -309,9 +340,14 @@
     <comp ref="M6">
       <value>HOLE_TF</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <fields>
+        <field name="Sim.Enable">0</field>
+      </fields>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
+      <property name="Sim.Enable" value="0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ad796685-f59e-4e5d-b6b6-55644de7de0b</tstamps>
@@ -484,9 +520,14 @@
     <comp ref="TP1">
       <value>#DTR</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Sim.Enable">0</field>
+      </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sim.Enable" value="0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -495,9 +536,14 @@
     <comp ref="TP2">
       <value>#DSR</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Sim.Enable">0</field>
+      </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sim.Enable" value="0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -506,9 +552,14 @@
     <comp ref="TP3">
       <value>#DCD</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Sim.Enable">0</field>
+      </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sim.Enable" value="0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -517,9 +568,14 @@
     <comp ref="TP4">
       <value>#RI</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Sim.Enable">0</field>
+      </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sim.Enable" value="0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFUSBSERIAL01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>

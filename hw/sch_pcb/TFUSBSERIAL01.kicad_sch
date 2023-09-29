@@ -1945,7 +1945,7 @@
   )
 
   (symbol (lib_id "MLAB_MECHANICAL:HOLE_TF") (at 243.205 16.51 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07150fcc-da73-41e8-b5bc-83b21169905a)
     (property "Reference" "M1" (at 244.6021 15.6224 0)
       (effects (font (size 1.524 1.524)) (justify left))
@@ -1958,6 +1958,9 @@
     )
     (property "Datasheet" "" (at 243.205 16.51 0)
       (effects (font (size 1.524 1.524)))
+    )
+    (property "Sim.Enable" "0" (at 243.205 16.51 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (instances
       (project "TFUSBSERIAL01"
@@ -2199,7 +2202,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 172.72 111.76 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 21a5ad0e-539f-4564-b041-b1ee529203d8)
     (property "Reference" "TP4" (at 177.419 110.736 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2211,6 +2214,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 172.72 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 172.72 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ff1069aa-12a8-4532-9f14-5ec795b9ad91))
@@ -2341,7 +2347,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 172.72 109.22 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 2d07e0e8-9869-4159-bdf3-1851d299def8)
     (property "Reference" "TP3" (at 177.419 108.196 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2355,6 +2361,9 @@
     (property "Datasheet" "~" (at 172.72 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Enable" "0" (at 172.72 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 0a9e5db4-4afb-4dc2-a31b-44af24695819))
     (instances
       (project "TFUSBSERIAL01"
@@ -2366,7 +2375,7 @@
   )
 
   (symbol (lib_id "MLAB_MECHANICAL:HOLE_TF") (at 257.175 16.51 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3b04b616-4d75-42e2-90fd-a67aacee2528)
     (property "Reference" "M3" (at 258.5721 15.6224 0)
       (effects (font (size 1.524 1.524)) (justify left))
@@ -2379,6 +2388,9 @@
     )
     (property "Datasheet" "" (at 257.175 16.51 0)
       (effects (font (size 1.524 1.524)))
+    )
+    (property "Sim.Enable" "0" (at 257.175 16.51 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (instances
       (project "TFUSBSERIAL01"
@@ -2630,7 +2642,7 @@
   )
 
   (symbol (lib_id "MLAB_MECHANICAL:HOLE_TF") (at 257.175 22.86 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74f42d80-c53a-4cd1-81c3-1ca032ef4173)
     (property "Reference" "M4" (at 258.5721 21.9724 0)
       (effects (font (size 1.524 1.524)) (justify left))
@@ -2643,6 +2655,9 @@
     )
     (property "Datasheet" "" (at 257.175 22.86 0)
       (effects (font (size 1.524 1.524)))
+    )
+    (property "Sim.Enable" "0" (at 257.175 22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (instances
       (project "TFUSBSERIAL01"
@@ -2937,7 +2952,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 172.72 104.14 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid a5893a44-acd1-43c1-a371-3072fcfe9c5b)
     (property "Reference" "TP1" (at 177.419 103.116 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2951,6 +2966,9 @@
     (property "Datasheet" "~" (at 172.72 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Enable" "0" (at 172.72 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 89044aaa-c304-464b-b238-6ae23b5a3139))
     (instances
       (project "TFUSBSERIAL01"
@@ -2962,7 +2980,7 @@
   )
 
   (symbol (lib_id "MLAB_MECHANICAL:HOLE_TF") (at 269.875 22.86 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad796685-f59e-4e5d-b6b6-55644de7de0b)
     (property "Reference" "M6" (at 271.2721 21.9724 0)
       (effects (font (size 1.524 1.524)) (justify left))
@@ -2976,6 +2994,9 @@
     (property "Datasheet" "" (at 269.875 22.86 0)
       (effects (font (size 1.524 1.524)))
     )
+    (property "Sim.Enable" "0" (at 269.875 22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "TFUSBSERIAL01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf"
@@ -2986,7 +3007,7 @@
   )
 
   (symbol (lib_id "MLAB_MECHANICAL:HOLE_TF") (at 243.205 22.86 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b96fd542-3f19-4d43-96de-688022c1a9e1)
     (property "Reference" "M2" (at 244.6021 21.9724 0)
       (effects (font (size 1.524 1.524)) (justify left))
@@ -2999,6 +3020,9 @@
     )
     (property "Datasheet" "" (at 243.205 22.86 0)
       (effects (font (size 1.524 1.524)))
+    )
+    (property "Sim.Enable" "0" (at 243.205 22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (instances
       (project "TFUSBSERIAL01"
@@ -3170,7 +3194,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 172.72 106.68 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid d6700dc6-0b34-43aa-ba0e-360a2e5aa5b9)
     (property "Reference" "TP2" (at 177.419 105.656 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3182,6 +3206,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 172.72 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 172.72 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3cca0b7b-7223-4eb2-ac0f-fe038b6a9287))
@@ -3249,7 +3276,7 @@
   )
 
   (symbol (lib_id "MLAB_MECHANICAL:HOLE_TF") (at 269.875 16.51 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid daf55a08-03f8-4aac-ab5b-3c300be303fe)
     (property "Reference" "M5" (at 271.2721 15.6224 0)
       (effects (font (size 1.524 1.524)) (justify left))
@@ -3262,6 +3289,9 @@
     )
     (property "Datasheet" "" (at 269.875 16.51 0)
       (effects (font (size 1.524 1.524)))
+    )
+    (property "Sim.Enable" "0" (at 269.875 16.51 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (instances
       (project "TFUSBSERIAL01"
@@ -3284,7 +3314,7 @@
     (property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering" (at 247.65 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 247.65 118.11 0)
+    (property "Datasheet" "https://www.tme.eu/Document/039d7772a3e1de850ecf12d397e62c7b/srl23.pdf" (at 247.65 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "UST_ID" "651003fd462c6d9e72054b2f" (at 247.65 118.11 0)
@@ -3410,7 +3440,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 227.33 22.86 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ed901f9f-264f-4e79-8415-3b9248a34dd4)
     (property "Reference" "FID2" (at 229.87 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3422,6 +3452,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 227.33 22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 227.33 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances

@@ -18,3 +18,12 @@ The converter is designed to service operations on UAVs. It respects the [Pixhaw
   * Supports hardware flow control
   * The power delivered from USB is protected from excess current possibly drawn by peripheral or FMU
   * The accidental power from FMU to USB is protected by reverse diode
+  
+  
+### Self-test 
+
+The proper function and cable could be easily tested by connecting the cable between "to FMU" and "to Peripheral" connectors. 
+
+![TFUSBSERIAL01 self test](doc/img/TFUSBSERIAL01_self-test.jpg)
+
+All communication send by UART is in that case forwarded in loop. Therefore the cable behave the same as "local-echo".

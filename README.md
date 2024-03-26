@@ -14,3 +14,6 @@ The converter is designed to service operations on UAVs. It respects the [Pixhaw
   * Supports hardware flow control
   * The power delivered from USB is protected from excess current possibly drawn by peripheral or FMU
   * The accidental power from FMU to USB is protected by reverse diode
+
+### Where to Get It?
+TFUSBSERIAL can be bought directly from ThunderFly via [email contact](https://www.thunderfly.cz/contact-us.html). The email can also be used if there are specific requirements for custom modifications and accessories (cables for example) or if the product will be inquired in significant quantities.

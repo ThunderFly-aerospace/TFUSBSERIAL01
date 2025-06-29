@@ -14,4 +14,4 @@ Test cable functionality by connecting the "to FMU" and "to Peripheral" connecto
 
 # The package includes
 - TFUSBSERIAL01A protected by the heat-shrinking tube
-- 15cm UART/TELEM/SERIAL cable with JST-GH connectors. Color-coded by [ThunderFly color scheme](https://github.com/ThunderFly-aerospace/TFCAB01).
+- 15cm UART/TELEM/SERIAL cable with JST-GH connectors. Color-coded by [ThunderFly color scheme](https://docs.thunderfly.cz/avionics/TFCAB01/).

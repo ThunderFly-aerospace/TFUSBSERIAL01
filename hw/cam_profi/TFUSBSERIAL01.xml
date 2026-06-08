@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFUSBSERIAL01.kicad_sch</source>
-    <date>2025-12-25T15:13:53+0000</date>
-    <tool>Eeschema 9.0.6+1</tool>
+    <date>2026-06-08T00:14:48+0000</date>
+    <tool>Eeschema 9.0.7+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>TFUSBSERIAL01A</title>

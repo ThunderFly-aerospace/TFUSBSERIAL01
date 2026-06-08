@@ -179,6 +179,7 @@ jobs:
           
       - name: "Inject user.js into ibom HTML"
         run: |
+          sudo chmod -R a+rw ${{ env.dir }}_ibom/
           python3 - <<'EOF'
           import glob
           js = open("${{ env.kibot }}/ibom_user.js").read()

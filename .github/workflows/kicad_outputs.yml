@@ -177,9 +177,22 @@ jobs:
           board: ${{ env.board }}
           dir: ${{ env.dir }}_ibom
           
+      - name: "Inject user.js into ibom HTML"
+        run: |
+          sudo chmod -R a+rw ${{ env.dir }}_ibom/
+          python3 - <<'EOF'
+          import glob
+          js = open("${{ env.kibot }}/ibom_user.js").read()
+          tag = '<script type="text/javascript">\n' + js + '\n</script>\n'
+          for f in glob.glob("${{ env.dir }}_ibom/**/*.html", recursive=True):
+              html = open(f).read()
+              open(f, "w").write(html.replace("</body>", tag + "</body>", 1))
+              print("Injected user.js into", f)
+          EOF
+
       - name: "Rename output"
         run: for file in $(find ${{env.dir}} -type f); do sudo mv "${file}" "${file//${{env.project}}/${{env.branch}}}" ; done
-        
+
       - uses: actions/upload-artifact@v4
         if: ${{ success() }}
         with:
